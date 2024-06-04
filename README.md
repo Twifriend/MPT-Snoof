@@ -5,4 +5,6 @@ You are required to already have an install of SPT and FIKA before installing th
 
 In order to connect to a co-op session, you will first need to install [Radmin VPN](https://www.radmin-vpn.com/). Inquire the host for server credentials. Once you have joined the Radmin server, open your SPT Launcher ONLY. You must then go into the Settings at the top of the launcher and change the URL to http://*-hosts-radmin-ip-*:6969 (no backslash after) in order to be able to start the game, create a profile, edit your loadout and stash, and connect to the host's raid. Clients are not able to start and join raids besides the host's as multiple raids are not supported by FIKA.
 
+User profiles are stored and saved on the host's install and any changes to a user's profile will be saved in the host's users/profile folder. At this time, user profiles are not shared with clients and offline progression is not shared between the server and client. Ask the host for a copy of your profile if you intend to make progression while offline. You will also need to provide your updated profile to the host after any progression in order for it to be saved to the server.
+
 This modlist will be updated as frequently as new updates for mods are released, provided they do not have any bugs or issues. Configs may also be changed from time to time and will also require an update.
