@@ -1,6 +1,6 @@
 {
   "General": {
-    "GlobalDifficultyModifier": 1.2,
+    "GlobalDifficultyModifier": 1.65,
     "RandomSpeedHacker": false,
     "PerformanceMode": false,
     "NewDoorOpening": true,
@@ -41,7 +41,7 @@
     "IronSightScaleDistanceStart": 50.0,
     "IronSightScaleDistanceEnd": 100.0,
     "CenterMassVal": 0.312,
-    "AccuracySpreadMultiGlobal": 0.97,
+    "AccuracySpreadMultiGlobal": 0.95,
     "FasterCQBReactionsGlobal": true,
     "PMCSAimForHead": false
   },
@@ -62,7 +62,7 @@
   },
   "Flashlight": {
     "DazzleEffectiveness": 3.0,
-    "MaxDazzleRange": 40.0,
+    "MaxDazzleRange": 30.0,
     "AllowLightOnForDarkBuildings": true,
     "TurnLightOffNoEnemyPMC": true,
     "TurnLightOffNoEnemySCAV": false,
@@ -93,12 +93,12 @@
     "BaseSoundRange_AimingandGearRattle": 35.0,
     "BaseSoundRange_EatDrink": 40.0,
     "MaxRangeToReportEnemyActionNoHeadset": 45.0,
-    "BaseHearingDelayWithEnemy": 0.2,
-    "BaseHearingDelayAtPeace": 0.35,
+    "BaseHearingDelayWithEnemy": 0.15,
+    "BaseHearingDelayAtPeace": 0.25,
     "GunshotAudioMultiplier": 1.0,
     "FootstepAudioMultiplier": 1.0,
-    "SuppressorModifier": 0.6,
-    "SubsonicModifier": 0.33,
+    "SuppressorModifier": 0.65,
+    "SubsonicModifier": 0.35,
     "HearingDistances": {
       "Caliber9x18PM": 135.0,
       "Caliber9x19PARA": 140.0,
@@ -122,7 +122,7 @@
       "Caliber12g": 185.0,
       "Caliber23x75": 210.0,
       "Caliber26x75": 50.0,
-      "Caliber30x29": 150.0,
+      "Caliber30x29": 100.0,
       "Caliber40x46": 80.0,
       "Caliber40mmRU": 80.0,
       "Caliber127x108": 300.0,
@@ -132,9 +132,9 @@
   },
   "Look": {
     "GlobalVisionDistanceMultiplier": 1.0,
-    "GlobalVisionSpeedModifier": 0.98,
-    "SprintingVisionModifier": 0.6,
-    "MovementDistanceModifier": 1.5,
+    "GlobalVisionSpeedModifier": 0.9,
+    "SprintingVisionModifier": 0.4,
+    "MovementDistanceModifier": 1.75,
     "HighElevationMaxAngle": 60.0,
     "HighElevationVisionModifier": 1.0,
     "LowElevationMaxAngle": 30.0,
@@ -143,7 +143,7 @@
     "NotLookingTimeLimit": 4.0,
     "NotLookingAngle": 45.0,
     "NotLookingVisionSpeedModifier": 1.0,
-    "NotLookingAccuracyAmount": 0.75,
+    "NotLookingAccuracyAmount": 0.5,
     "NightTimeVisionModifier": 0.45,
     "NightTimeVisionModifierSnow": 0.5,
     "HourDawnStart": 6.0,
@@ -159,7 +159,7 @@
     "MinLootValException": 1500000.0
   },
   "Mind": {
-    "GlobalAggression": 1.5,
+    "GlobalAggression": 2.5,
     "SneakyBots": true,
     "OnlySneakyPersonalitiesSneaky": false,
     "MaximumDistanceToBeSneaky": 80.0,
@@ -190,7 +190,7 @@
     "NoBushESPDebugMode": false
   },
   "Shoot": {
-    "GlobalScatterMultiplier": 1.0,
+    "GlobalScatterMultiplier": 0.95,
     "GlobalRecoilMultiplier": 1.0,
     "MaxRecoil": 2.0,
     "AddRecoil": -1.0,
@@ -283,12 +283,12 @@
     },
     "EngagementDistance": {
       "Default": 125.0,
-      "assaultCarbine": 155.0,
+      "assaultCarbine": 160.0,
       "assaultRifle": 150.0,
       "machinegun": 160.0,
       "smg": 125.0,
       "pistol": 65.0,
-      "marksmanRifle": 180.0,
+      "marksmanRifle": 185.0,
       "sniperRifle": 300.0,
       "shotgun": 60.0,
       "grenadeLauncher": 125.0,

@@ -72,7 +72,7 @@
         "NO_GRASS_DIST": 3.0
       },
       "Mind": {
-        "Aggression": 1.0,
+        "Aggression": 0.7,
         "WeaponProficiency": 0.48,
         "TalkFrequency": 1.0,
         "CanTalk": true,
@@ -173,7 +173,7 @@
         "NO_GRASS_DIST": 3.0
       },
       "Mind": {
-        "Aggression": 1.0,
+        "Aggression": 0.8,
         "WeaponProficiency": 0.5,
         "TalkFrequency": 1.0,
         "CanTalk": true,
@@ -274,7 +274,7 @@
         "NO_GRASS_DIST": 3.0
       },
       "Mind": {
-        "Aggression": 1.1,
+        "Aggression": 0.9,
         "WeaponProficiency": 0.52,
         "TalkFrequency": 1.0,
         "CanTalk": true,
@@ -375,7 +375,7 @@
         "NO_GRASS_DIST": 3.0
       },
       "Mind": {
-        "Aggression": 1.1,
+        "Aggression": 1.0,
         "WeaponProficiency": 0.55,
         "TalkFrequency": 1.0,
         "CanTalk": true,
