@@ -2,28 +2,28 @@
   {
     "Name": "live-like",
   	"PMCBotLimitPresets": {
-      "FactoryBotLimit": 5,
+      "FactoryBotLimit": 6,
       "InterchangeBotLimit": 8,
-      "LaboratoryBotLimit": 8,
-      "LighthouseBotLimit": 4,
-      "ReserveBotLimit": 6,
+      "LaboratoryBotLimit": 7,
+      "LighthouseBotLimit": 8,
+      "ReserveBotLimit": 8,
       "ShorelineBotLimit": 8,
       "WoodsBotLimit": 8,
-      "CustomsBotLimit": 7,
-      "TarkovStreetsBotLimit": 4,
+      "CustomsBotLimit": 8,
+      "TarkovStreetsBotLimit": 6,
       "GroundZeroBotLimit": 8
     },
     "SCAVBotLimitPresets": {
-      "FactoryBotLimit": 5,
-      "InterchangeBotLimit": 8,
+      "FactoryBotLimit": 8,
+      "InterchangeBotLimit": 12,
       "LaboratoryBotLimit": 9,
-      "LighthouseBotLimit": 7,
-      "ReserveBotLimit": 7,
-      "ShorelineBotLimit": 7,
-      "WoodsBotLimit": 9,
-      "CustomsBotLimit": 8,
-      "TarkovStreetsBotLimit": 5,
-      "GroundZeroBotLimit": 8
+      "LighthouseBotLimit": 10,
+      "ReserveBotLimit": 10,
+      "ShorelineBotLimit": 10,
+      "WoodsBotLimit": 12,
+      "CustomsBotLimit": 10,
+      "TarkovStreetsBotLimit": 8,
+      "GroundZeroBotLimit": 10
     }
   },
   {

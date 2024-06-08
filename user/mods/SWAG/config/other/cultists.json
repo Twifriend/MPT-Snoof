@@ -2,7 +2,7 @@
   "customs": [
     {
       "BossName": "sectantpriest",
-      "BossChance": 15,
+      "BossChance": 25,
       "Time": 1,
       "BossEscortAmount": "4",
       "BossEscortType": "sectantwarrior",
@@ -119,7 +119,7 @@
   "shoreline": [
     {
       "BossName": "sectantpriest",
-      "BossChance": 15,
+      "BossChance": 25,
       "BossEscortType": "sectantwarrior",
       "BossEscortAmount": "3",
       "Time": 1,
@@ -129,7 +129,7 @@
     },
     {
       "BossName": "sectantpriest",
-      "BossChance": 15,
+      "BossChance": 25,
       "BossEscortType": "sectantwarrior",
       "BossEscortAmount": "3",
       "Time": 1,
@@ -151,7 +151,7 @@
   "woods": [
     {
       "BossName": "sectantpriest",
-      "BossChance": 15,
+      "BossChance": 25,
       "BossEscortType": "sectantwarrior",
       "BossEscortAmount": "4",
       "Time": 1,

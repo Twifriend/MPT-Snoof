@@ -1,6 +1,6 @@
 {
-   "BossDifficulty": "normal",
-   "BossEscortDifficulty": "normal",
+   "BossDifficulty": "hard",
+   "BossEscortDifficulty": "hard",
    "disableAllSpawns": {
       "bosses": false,
       "rogues": false,
@@ -78,27 +78,27 @@
       }
    },
    "MaxBotCap": {
-      "factory": 13,
-      "customs": 16,
-      "woods": 16,
-      "shoreline": 16,
-      "lighthouse": 16,
-      "reserve": 16,
-      "interchange": 16,
+      "factory": 15,
+      "customs": 18,
+      "woods": 20,
+      "shoreline": 18,
+      "lighthouse": 18,
+      "reserve": 18,
+      "interchange": 20,
       "laboratory": 16,
       "streets": 14,
-      "groundzero": 16
+      "groundzero": 18
    },
    "NightMaxBotCap": {
       "factory_night": 16,
-      "customs": 16,
-      "woods": 16,
+      "customs": 13,
+      "woods": 18,
       "shoreline": 16,
       "lighthouse": 16,
       "reserve": 16,
-      "interchange": 16,
+      "interchange": 18,
       "laboratory": 16,
-      "streets": 14,
+      "streets": 13,
       "groundzero": 16
    },
    "UseDefaultSpawns": {

@@ -1,7 +1,7 @@
 {
   "customs": [
     {
-      "BossChance": 35,
+      "BossChance": 45,
       "BossEscortAmount": "2,2,2,2,3",
       "BossEscortType": "pmcbot",
       "BossName": "pmcbot",
@@ -251,7 +251,7 @@
   ],
   "reserve": [
     {
-      "BossChance": 35,
+      "BossChance": 55,
       "BossEscortAmount": "2,2,2,2,3",
       "BossEscortType": "pmcbot",
       "BossName": "pmcbot",
@@ -261,7 +261,7 @@
       "Time": 1470
     },
     {
-      "BossChance": 40,
+      "BossChance": 45,
       "BossEscortAmount": "2,2,2,2,3",
       "BossEscortType": "pmcbot",
       "BossName": "pmcbot",
@@ -273,7 +273,7 @@
       "TriggerName": "interactObject"
     },
     {
-      "BossChance": 40,
+      "BossChance": 45,
       "BossEscortAmount": "2,2,2,2,3",
       "BossEscortType": "pmcbot",
       "BossName": "pmcbot",
@@ -285,7 +285,7 @@
       "TriggerName": "interactObject"
     },
     {
-      "BossChance": 40,
+      "BossChance": 45,
       "BossEscortAmount": "2,2,2,2,3",
       "BossEscortType": "pmcbot",
       "BossName": "pmcbot",
