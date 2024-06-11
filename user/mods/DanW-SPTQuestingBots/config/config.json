@@ -22,7 +22,7 @@
 	"questing": {
 		"enabled": true,
 		"bot_pathing_update_interval_ms": 100,
-		"brain_layer_priority": 26,
+		"brain_layer_priority": 18,
 		"quest_selection_timeout": 250,
 		"allowed_bot_types_for_questing": {
 			"scav": false,

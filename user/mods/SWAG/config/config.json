@@ -12,7 +12,7 @@
    "Spawns": {
       "useGlobalSpawnChance": true,
       "bloodhounds": {
-         "customs": 5,
+         "customs": 15,
          "factory": 0,
          "factory_night": 0,
          "groundzero": 0,
@@ -20,22 +20,22 @@
          "laboratory": 0,
          "lighthouse": 0,
          "reserve": 0,
-         "shoreline": 5,
+         "shoreline": 15,
          "streets": 0,
-         "woods": 5
+         "woods": 15
       },
       "cultists": {
-         "customs": 15,
+         "customs": 25,
          "factory": 0,
-         "factory_night": 15,
-         "groundzero": 5,
-         "interchange": 5,
+         "factory_night": 55,
+         "groundzero": 15,
+         "interchange": 15,
          "laboratory": 0,
-         "lighthouse": 5,
-         "reserve": 5,
-         "shoreline": 10,
+         "lighthouse": 15,
+         "reserve": 15,
+         "shoreline": 25,
          "streets": 5,
-         "woods": 20
+         "woods": 25
       },
       "raiders": {
          "customs": 0,
@@ -78,27 +78,27 @@
       }
    },
    "MaxBotCap": {
-      "factory": 15,
-      "customs": 18,
-      "woods": 20,
+      "factory": 14,
+      "customs": 20,
+      "woods": 24,
       "shoreline": 18,
       "lighthouse": 18,
       "reserve": 18,
-      "interchange": 20,
+      "interchange": 18,
       "laboratory": 16,
-      "streets": 14,
+      "streets": 18,
       "groundzero": 18
    },
    "NightMaxBotCap": {
-      "factory_night": 16,
+      "factory_night": 14,
       "customs": 13,
-      "woods": 18,
+      "woods": 20,
       "shoreline": 16,
       "lighthouse": 16,
       "reserve": 16,
-      "interchange": 18,
-      "laboratory": 16,
-      "streets": 13,
+      "interchange": 16,
+      "laboratory": 14,
+      "streets": 16,
       "groundzero": 16
    },
    "UseDefaultSpawns": {

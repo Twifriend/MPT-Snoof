@@ -2,7 +2,7 @@
   "customs": [
     {
       "BossName": "arenafighterevent",
-      "BossChance": 25,
+      "BossChance": 15,
       "Time": 1,
       "BossEscortAmount": "3,4",
       "BossEscortType": "arenafighterevent",
@@ -85,7 +85,7 @@
   "shoreline": [
     {
       "BossName": "arenafighterevent",
-      "BossChance": 25,
+      "BossChance": 15,
       "BossEscortType": "arenafighterevent",
       "BossEscortAmount": "3,4",
       "Time": 1,
@@ -109,7 +109,7 @@
   "woods": [
     {
       "BossName": "arenafighterevent",
-      "BossChance": 25,
+      "BossChance": 15,
       "BossEscortType": "arenafighterevent",
       "BossEscortAmount": "3,4",
       "Time": 1,

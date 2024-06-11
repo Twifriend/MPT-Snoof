@@ -74,7 +74,7 @@
   "groundzero": [
     {
       "BossName": "bosskolontay",
-      "BossChance": 35,
+      "BossChance": 50,
       "Time": -1,
       "BossEscortAmount": "2",
       "BossEscortType": "followerkolontaysecurity",

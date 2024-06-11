@@ -120,7 +120,10 @@ class QuestingBots {
         if (!config_json_1.default.enabled) {
             return;
         }
-        this.performFileIntegrityCheck();
+        if (!this.doesFileIntegrityCheckPass()) {
+            config_json_1.default.enabled = false;
+            return;
+        }
         if (config_json_1.default.debug.always_have_airdrops) {
             this.commonUtils.logInfo("Forcing airdrops to occur at the beginning of every raid...");
             this.iAirdropConfig.airdropChancePercent.bigmap = 100;
@@ -344,7 +347,7 @@ class QuestingBots {
         }
         return bots;
     }
-    performFileIntegrityCheck() {
+    doesFileIntegrityCheckPass() {
         const path = `${__dirname}/..`;
         if (this.vfs.exists(`${path}/quests/`)) {
             this.commonUtils.logWarning("Found obsolete quests folder 'user\\mods\\DanW-SPTQuestingBots\\quests'. Only quest files in 'BepInEx\\plugins\\DanW-SPTQuestingBots\\quests' will be used.");
@@ -352,6 +355,11 @@ class QuestingBots {
         if (this.vfs.exists(`${path}/log/`)) {
             this.commonUtils.logWarning("Found obsolete log folder 'user\\mods\\DanW-SPTQuestingBots\\log'. Logs are now saved in 'BepInEx\\plugins\\DanW-SPTQuestingBots\\log'.");
         }
+        if (this.vfs.exists(`${path}/../../../BepInEx/plugins/SPTQuestingBots.dll`)) {
+            this.commonUtils.logError("Please remove BepInEx/plugins/SPTQuestingBots.dll from the previous version of this mod and restart the server, or it will NOT work correctly.");
+            return false;
+        }
+        return true;
     }
     useEFTBotCaps() {
         if (!config_json_1.default.bot_spawns.advanced_eft_bot_count_management.use_EFT_bot_caps) {

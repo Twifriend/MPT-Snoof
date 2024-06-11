@@ -8,21 +8,21 @@
       "LighthouseBotLimit": 8,
       "ReserveBotLimit": 8,
       "ShorelineBotLimit": 8,
-      "WoodsBotLimit": 8,
+      "WoodsBotLimit": 9,
       "CustomsBotLimit": 8,
-      "TarkovStreetsBotLimit": 6,
+      "TarkovStreetsBotLimit": 8,
       "GroundZeroBotLimit": 8
     },
     "SCAVBotLimitPresets": {
       "FactoryBotLimit": 8,
-      "InterchangeBotLimit": 12,
+      "InterchangeBotLimit": 10,
       "LaboratoryBotLimit": 9,
       "LighthouseBotLimit": 10,
       "ReserveBotLimit": 10,
       "ShorelineBotLimit": 10,
-      "WoodsBotLimit": 12,
-      "CustomsBotLimit": 10,
-      "TarkovStreetsBotLimit": 8,
+      "WoodsBotLimit": 15,
+      "CustomsBotLimit": 12,
+      "TarkovStreetsBotLimit": 10,
       "GroundZeroBotLimit": 10
     }
   },
@@ -110,28 +110,28 @@
   {
     "Name": "boss-mania",
   	"PMCBotLimitPresets": {
-      "FactoryBotLimit": 6,
-      "InterchangeBotLimit": 9,
-      "LaboratoryBotLimit": 9,
-      "LighthouseBotLimit": 9,
-      "ReserveBotLimit": 9,
-      "ShorelineBotLimit": 9,
-      "WoodsBotLimit": 9,
-      "CustomsBotLimit": 9,
-      "TarkovStreetsBotLimit": 9,
-      "GroundZeroBotLimit": 8
+      "FactoryBotLimit": 0,
+      "InterchangeBotLimit": 0,
+      "LaboratoryBotLimit": 0,
+      "LighthouseBotLimit": 0,
+      "ReserveBotLimit": 0,
+      "ShorelineBotLimit": 0,
+      "WoodsBotLimit": 0,
+      "CustomsBotLimit": 0,
+      "TarkovStreetsBotLimit": 0,
+      "GroundZeroBotLimit": 0
     },
     "SCAVBotLimitPresets": {
-      "FactoryBotLimit": 6,
-      "InterchangeBotLimit": 9,
-      "LaboratoryBotLimit": 6,
-      "LighthouseBotLimit": 9,
-      "ReserveBotLimit": 9,
-      "ShorelineBotLimit": 9,
-      "WoodsBotLimit": 9,
-      "CustomsBotLimit": 9,
-      "TarkovStreetsBotLimit": 10,
-      "GroundZeroBotLimit": 8
+      "FactoryBotLimit": 0,
+      "InterchangeBotLimit": 0,
+      "LaboratoryBotLimit": 0,
+      "LighthouseBotLimit": 0,
+      "ReserveBotLimit": 0,
+      "ShorelineBotLimit": 0,
+      "WoodsBotLimit": 0,
+      "CustomsBotLimit": 0,
+      "TarkovStreetsBotLimit": 0,
+      "GroundZeroBotLimit": 0
     }
   },
   {
