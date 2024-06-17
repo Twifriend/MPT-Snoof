@@ -128,8 +128,8 @@ class SkillsPlus implements IPreAkiLoadMod, IPostDBLoadMod
 
             parentId: "5c99f98d86f7745c314214b3",
             newId: ItemIDS.Lockpick,
-            fleaPriceRoubles: 120000,
-            handbookPriceRoubles: 75000,
+            fleaPriceRoubles: 800000,
+            handbookPriceRoubles: 350000,
             handbookParentId: "5c518ec986f7743b68682ce2",
 
             locales: {
@@ -160,7 +160,7 @@ class SkillsPlus implements IPreAkiLoadMod, IPostDBLoadMod
         mechanic.assort.barter_scheme[ItemIDS.Lockpick] = [
             [
                 {
-                    count: 75000,
+                    count: 375000,
                     _tpl: Money.ROUBLES
                 }
             ]
@@ -184,7 +184,7 @@ class SkillsPlus implements IPreAkiLoadMod, IPostDBLoadMod
             parentId: "5c164d2286f774194c5e69fa",
             newId: ItemIDS.Pda,
             fleaPriceRoubles: 3650000,
-            handbookPriceRoubles: 75000,
+            handbookPriceRoubles: 1250000,
             handbookParentId: "5c164d2286f774194c5e69fa",
 
             locales: {
@@ -215,7 +215,7 @@ class SkillsPlus implements IPreAkiLoadMod, IPostDBLoadMod
         peaceKeeper.assort.barter_scheme[ItemIDS.Pda] = [
             [
                 {
-                    count: 12500,
+                    count: 20000,
                     _tpl: Money.DOLLARS
                 }
             ]

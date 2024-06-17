@@ -4,7 +4,7 @@
     "main": "src/mod.js",
     "license": "CC BY-NC-ND 4.0",
     "author": "dirtbikercj",
-    "akiVersion": "3.8.0",
+    "akiVersion": "3.8.x",
     "isBundleMod": true,
     "loadBefore": [],
     "loadAfter": [],
