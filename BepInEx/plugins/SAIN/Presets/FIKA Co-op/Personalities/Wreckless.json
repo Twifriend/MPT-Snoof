@@ -14,7 +14,7 @@
     "InverseScale": false,
     "PowerLevelMin": 250.0,
     "PowerLevelMax": 800.0,
-    "MaxChanceIfMeetRequirements": 5.0,
+    "MaxChanceIfMeetRequirements": 10.0,
     "AllowedTypes": [
       "assault",
       "assaultGroup",
@@ -58,7 +58,7 @@
   },
   "Behavior": {
     "General": {
-      "AggressionMultiplier": 1.3,
+      "AggressionMultiplier": 2.0,
       "KickOpenAllDoors": true,
       "HoldGroundBaseTime": 2.0,
       "HoldGroundMinRandom": 0.8,
@@ -84,9 +84,9 @@
     "Rush": {
       "CanRushEnemyReloadHeal": true,
       "CanJumpCorners": true,
-      "JumpCornerChance": 60.0,
+      "JumpCornerChance": 100.0,
       "CanBunnyHop": true,
-      "BunnyHopChance": 15.0
+      "BunnyHopChance": 50.0
     },
     "Cover": {
       "CanShiftCoverPosition": true,

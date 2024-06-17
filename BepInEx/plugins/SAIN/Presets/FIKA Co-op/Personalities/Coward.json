@@ -6,7 +6,7 @@
     "MaximumOfThisTypePerRaid": 0.0,
     "Enabled": true,
     "CanBeRandomlyAssigned": true,
-    "RandomlyAssignedChance": 5.0,
+    "RandomlyAssignedChance": 3.0,
     "MinLevel": 0.0,
     "MaxLevel": 20.0,
     "PowerLevelScaleStart": 0.0,
@@ -101,8 +101,8 @@
       "CanRespondToEnemyVoice": true,
       "TauntFrequency": 15.0,
       "TauntMaxDistance": 70.0,
-      "CanFakeDeathRare": false,
-      "FakeDeathChance": 2.0,
+      "CanFakeDeathRare": true,
+      "FakeDeathChance": 25.0,
       "CanBegForLife": true
     }
   },

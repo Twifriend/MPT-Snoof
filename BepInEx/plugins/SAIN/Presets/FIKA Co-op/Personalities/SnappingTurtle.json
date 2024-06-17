@@ -14,7 +14,7 @@
     "InverseScale": false,
     "PowerLevelMin": 150.0,
     "PowerLevelMax": 800.0,
-    "MaxChanceIfMeetRequirements": 30.0,
+    "MaxChanceIfMeetRequirements": 40.0,
     "AllowedTypes": [
       "sptUsec",
       "sptBear"
@@ -22,7 +22,7 @@
   },
   "Behavior": {
     "General": {
-      "AggressionMultiplier": 1.05,
+      "AggressionMultiplier": 1.2,
       "KickOpenAllDoors": false,
       "HoldGroundBaseTime": 1.5,
       "HoldGroundMinRandom": 0.8,
@@ -68,7 +68,7 @@
       "TauntFrequency": 15.0,
       "TauntMaxDistance": 70.0,
       "CanFakeDeathRare": true,
-      "FakeDeathChance": 10.0,
+      "FakeDeathChance": 25.0,
       "CanBegForLife": false
     }
   },

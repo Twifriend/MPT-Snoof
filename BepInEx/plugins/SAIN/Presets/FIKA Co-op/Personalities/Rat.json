@@ -102,7 +102,7 @@
       "TauntFrequency": 10.0,
       "TauntMaxDistance": 70.0,
       "CanFakeDeathRare": true,
-      "FakeDeathChance": 7.5,
+      "FakeDeathChance": 50.0,
       "CanBegForLife": false
     }
   },

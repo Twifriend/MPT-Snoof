@@ -22,7 +22,7 @@
   },
   "Behavior": {
     "General": {
-      "AggressionMultiplier": 1.25,
+      "AggressionMultiplier": 1.75,
       "KickOpenAllDoors": true,
       "HoldGroundBaseTime": 1.2,
       "HoldGroundMinRandom": 0.6,
@@ -48,9 +48,9 @@
     "Rush": {
       "CanRushEnemyReloadHeal": true,
       "CanJumpCorners": true,
-      "JumpCornerChance": 40.0,
+      "JumpCornerChance": 60.0,
       "CanBunnyHop": true,
-      "BunnyHopChance": 8.0
+      "BunnyHopChance": 15.0
     },
     "Cover": {
       "CanShiftCoverPosition": true,
@@ -63,12 +63,12 @@
     "Talk": {
       "CanTaunt": true,
       "FrequentTaunt": true,
-      "ConstantTaunt": true,
+      "ConstantTaunt": false,
       "CanRespondToEnemyVoice": true,
       "TauntFrequency": 8.0,
       "TauntMaxDistance": 65.0,
       "CanFakeDeathRare": true,
-      "FakeDeathChance": 5.0,
+      "FakeDeathChance": 12.5,
       "CanBegForLife": false
     }
   },
