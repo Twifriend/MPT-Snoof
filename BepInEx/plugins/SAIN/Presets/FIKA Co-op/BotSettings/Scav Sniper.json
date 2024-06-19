@@ -1,7 +1,7 @@
 {
   "Name": "Scav Sniper",
   "WildSpawnType": "marksman",
-  "DifficultyModifier": 0.3,
+  "DifficultyModifier": 0.9,
   "Settings": {
     "easy": {
       "Aiming": {
@@ -27,10 +27,10 @@
       },
       "Change": {},
       "Core": {
-        "VisibleAngle": 160.0,
-        "VisibleDistance": 165.0,
+        "VisibleAngle": 180.0,
+        "VisibleDistance": 200.0,
         "GainSightCoef": 0.2,
-        "ScatteringPerMeter": 0.12,
+        "ScatteringPerMeter": 0.04,
         "ScatteringClosePerMeter": 0.12,
         "HearingSense": 1.0,
         "CanGrenade": false
@@ -72,8 +72,8 @@
         "NO_GRASS_DIST": 3.0
       },
       "Mind": {
-        "Aggression": 0.7,
-        "WeaponProficiency": 0.48,
+        "Aggression": 0.8,
+        "WeaponProficiency": 0.55,
         "TalkFrequency": 1.0,
         "CanTalk": true,
         "BotTaunts": true,
@@ -87,7 +87,7 @@
       "Move": {},
       "Patrol": {},
       "Scattering": {
-        "ScatterMultiplier": 1.05,
+        "ScatterMultiplier": 0.9,
         "HandDamageRecoilMulti": 1.35,
         "HandDamageScatteringMinMax": 1.35,
         "HandDamageAccuracySpeed": 1.35
@@ -107,7 +107,7 @@
     "normal": {
       "Aiming": {
         "DistanceAimTimeMultiplier": 1.0,
-        "FasterCQBReactions": false,
+        "FasterCQBReactions": true,
         "FasterCQBReactionsDistance": 20.0,
         "FasterCQBReactionsMinimum": 0.35,
         "AccuracySpreadMulti": 1.0,
@@ -128,10 +128,10 @@
       },
       "Change": {},
       "Core": {
-        "VisibleAngle": 160.0,
-        "VisibleDistance": 180.0,
-        "GainSightCoef": 0.155,
-        "ScatteringPerMeter": 0.12,
+        "VisibleAngle": 180.0,
+        "VisibleDistance": 220.0,
+        "GainSightCoef": 0.1,
+        "ScatteringPerMeter": 0.04,
         "ScatteringClosePerMeter": 0.12,
         "HearingSense": 1.0,
         "CanGrenade": true
@@ -150,7 +150,7 @@
       "Hearing": {},
       "Lay": {},
       "Look": {
-        "VisionSpeedModifier": 1.0,
+        "VisionSpeedModifier": 0.9,
         "CloseVisionSpeed": 0.9,
         "FarVisionSpeed": 1.1,
         "CloseFarThresh": 70.0,
@@ -173,8 +173,8 @@
         "NO_GRASS_DIST": 3.0
       },
       "Mind": {
-        "Aggression": 0.8,
-        "WeaponProficiency": 0.5,
+        "Aggression": 0.9,
+        "WeaponProficiency": 0.58,
         "TalkFrequency": 1.0,
         "CanTalk": true,
         "BotTaunts": true,
@@ -188,7 +188,7 @@
       "Move": {},
       "Patrol": {},
       "Scattering": {
-        "ScatterMultiplier": 1.0,
+        "ScatterMultiplier": 0.9,
         "HandDamageRecoilMulti": 1.35,
         "HandDamageScatteringMinMax": 1.35,
         "HandDamageAccuracySpeed": 1.35
@@ -208,7 +208,7 @@
     "hard": {
       "Aiming": {
         "DistanceAimTimeMultiplier": 0.95,
-        "FasterCQBReactions": false,
+        "FasterCQBReactions": true,
         "FasterCQBReactionsDistance": 25.0,
         "FasterCQBReactionsMinimum": 0.33,
         "AccuracySpreadMulti": 0.9,
@@ -229,10 +229,10 @@
       },
       "Change": {},
       "Core": {
-        "VisibleAngle": 160.0,
-        "VisibleDistance": 195.0,
-        "GainSightCoef": 0.095,
-        "ScatteringPerMeter": 0.1,
+        "VisibleAngle": 180.0,
+        "VisibleDistance": 240.0,
+        "GainSightCoef": 0.075,
+        "ScatteringPerMeter": 0.04,
         "ScatteringClosePerMeter": 0.12,
         "HearingSense": 1.0,
         "CanGrenade": true
@@ -251,9 +251,9 @@
       "Hearing": {},
       "Lay": {},
       "Look": {
-        "VisionSpeedModifier": 1.0,
+        "VisionSpeedModifier": 0.85,
         "CloseVisionSpeed": 0.9,
-        "FarVisionSpeed": 1.1,
+        "FarVisionSpeed": 1.0,
         "CloseFarThresh": 85.0,
         "CAN_USE_LIGHT": true,
         "FULL_SECTOR_VIEW": false,
@@ -275,7 +275,7 @@
       },
       "Mind": {
         "Aggression": 0.9,
-        "WeaponProficiency": 0.52,
+        "WeaponProficiency": 0.62,
         "TalkFrequency": 1.0,
         "CanTalk": true,
         "BotTaunts": true,
@@ -289,7 +289,7 @@
       "Move": {},
       "Patrol": {},
       "Scattering": {
-        "ScatterMultiplier": 0.98,
+        "ScatterMultiplier": 0.9,
         "HandDamageRecoilMulti": 1.35,
         "HandDamageScatteringMinMax": 1.35,
         "HandDamageAccuracySpeed": 1.35
@@ -309,7 +309,7 @@
     "impossible": {
       "Aiming": {
         "DistanceAimTimeMultiplier": 0.9,
-        "FasterCQBReactions": false,
+        "FasterCQBReactions": true,
         "FasterCQBReactionsDistance": 30.0,
         "FasterCQBReactionsMinimum": 0.3,
         "AccuracySpreadMulti": 0.8,
@@ -330,10 +330,10 @@
       },
       "Change": {},
       "Core": {
-        "VisibleAngle": 160.0,
-        "VisibleDistance": 210.0,
+        "VisibleAngle": 180.0,
+        "VisibleDistance": 260.0,
         "GainSightCoef": 0.035,
-        "ScatteringPerMeter": 0.05,
+        "ScatteringPerMeter": 0.04,
         "ScatteringClosePerMeter": 0.12,
         "HearingSense": 1.0,
         "CanGrenade": true
@@ -352,7 +352,7 @@
       "Hearing": {},
       "Lay": {},
       "Look": {
-        "VisionSpeedModifier": 1.0,
+        "VisionSpeedModifier": 0.8,
         "CloseVisionSpeed": 0.8,
         "FarVisionSpeed": 1.0,
         "CloseFarThresh": 100.0,
@@ -390,7 +390,7 @@
       "Move": {},
       "Patrol": {},
       "Scattering": {
-        "ScatterMultiplier": 0.95,
+        "ScatterMultiplier": 0.9,
         "HandDamageRecoilMulti": 1.35,
         "HandDamageScatteringMinMax": 1.35,
         "HandDamageAccuracySpeed": 1.35
