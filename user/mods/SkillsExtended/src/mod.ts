@@ -13,7 +13,6 @@ import type { IKeys } from "./Models/IKeys";
 import { Money } from "@spt-aki/models/enums/Money";
 import { Traders } from "@spt-aki/models/enums/Traders";
 import { BaseClasses } from "@spt-aki/models/enums/BaseClasses";
-import { LogTextColor } from "@spt-aki/models/spt/logging/LogTextColor";
 
 enum ItemIDS {
     Lockpick  = "6622c28aed7e3bc72e301e22",
@@ -62,7 +61,7 @@ class SkillsPlus implements IPreAkiLoadMod, IPostDBLoadMod
         const keyItems = items.filter(x => 
             x._type === "Item" 
             && ItemHelper.isOfBaseclasses(x._id, [BaseClasses.KEY, BaseClasses.KEY_MECHANICAL, BaseClasses.KEYCARD]))
-
+            
         for (const item of keyItems)
         {
             keys.keyLocale[item._id] = this.locale.en[`${item._id} Name`];
@@ -128,8 +127,8 @@ class SkillsPlus implements IPreAkiLoadMod, IPostDBLoadMod
 
             parentId: "5c99f98d86f7745c314214b3",
             newId: ItemIDS.Lockpick,
-            fleaPriceRoubles: 800000,
-            handbookPriceRoubles: 350000,
+            fleaPriceRoubles: 250000,
+            handbookPriceRoubles: 200000,
             handbookParentId: "5c518ec986f7743b68682ce2",
 
             locales: {
@@ -160,7 +159,7 @@ class SkillsPlus implements IPreAkiLoadMod, IPostDBLoadMod
         mechanic.assort.barter_scheme[ItemIDS.Lockpick] = [
             [
                 {
-                    count: 375000,
+                    count: 200000,
                     _tpl: Money.ROUBLES
                 }
             ]
@@ -184,7 +183,7 @@ class SkillsPlus implements IPreAkiLoadMod, IPostDBLoadMod
             parentId: "5c164d2286f774194c5e69fa",
             newId: ItemIDS.Pda,
             fleaPriceRoubles: 3650000,
-            handbookPriceRoubles: 1250000,
+            handbookPriceRoubles: 75000,
             handbookParentId: "5c164d2286f774194c5e69fa",
 
             locales: {
@@ -215,7 +214,7 @@ class SkillsPlus implements IPreAkiLoadMod, IPostDBLoadMod
         peaceKeeper.assort.barter_scheme[ItemIDS.Pda] = [
             [
                 {
-                    count: 20000,
+                    count: 12500,
                     _tpl: Money.DOLLARS
                 }
             ]

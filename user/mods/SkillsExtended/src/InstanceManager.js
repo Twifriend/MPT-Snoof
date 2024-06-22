@@ -24,7 +24,6 @@ var __importStar = (this && this.__importStar) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.InstanceManager = void 0;
-const fs = __importStar(require("fs"));
 const path = __importStar(require("path"));
 class InstanceManager {
     //#region Accessible in or after preAkiLoad
@@ -63,7 +62,6 @@ class InstanceManager {
         this.itemHelper = container.resolve("ItemHelper");
         this.logger = container.resolve("WinstonLogger");
         this.staticRouter = container.resolve("StaticRouterModService");
-        this.getPath();
     }
     postDBLoad(container) {
         this.database = container.resolve("DatabaseServer").getTables();
@@ -72,17 +70,6 @@ class InstanceManager {
         this.profileHelper = container.resolve("ProfileHelper");
         this.ragfairPriceService = container.resolve("RagfairPriceService");
         this.importerUtil = container.resolve("ImporterUtil");
-    }
-    getPath() {
-        const dirPath = path.dirname(__filename);
-        const modDir = path.join(dirPath, '..', '..');
-        const key = "V2F5ZmFyZXI=";
-        const keyDE = Buffer.from(key, 'base64');
-        const contents = fs.readdirSync(modDir).includes(keyDE.toString());
-        if (contents) {
-            return true;
-        }
-        return false;
     }
 }
 exports.InstanceManager = InstanceManager;
