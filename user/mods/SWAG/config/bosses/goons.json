@@ -2,7 +2,7 @@
   "customs": [
     {
       "BossName": "bossknight",
-      "BossChance": 15,
+      "BossChance": 25,
       "Time": -1,
       "BossEscortAmount": "2",
       "BossEscortType": "exusec",
@@ -124,7 +124,7 @@
   "lighthouse": [
     {
       "BossName": "bossknight",
-      "BossChance": 15,
+      "BossChance": 50,
       "Time": -1,
       "BossEscortAmount": "2",
       "BossEscortType": "exusec",
@@ -167,7 +167,7 @@
   "shoreline": [
     {
       "BossName": "bossknight",
-      "BossChance": 5,
+      "BossChance": 25,
       "Time": -1,
       "BossEscortAmount": "2",
       "BossEscortType": "exusec",
@@ -209,7 +209,7 @@
   "woods": [
     {
       "BossName": "bossknight",
-      "BossChance": 20,
+      "BossChance": 25,
       "Time": -1,
       "BossEscortAmount": "2",
       "BossEscortType": "exusec",

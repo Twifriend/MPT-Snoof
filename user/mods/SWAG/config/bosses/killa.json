@@ -41,7 +41,7 @@
   ],
   "interchange": [
     {
-      "BossChance": 30,
+      "BossChance": 35,
       "BossEscortAmount": "0",
       "BossEscortType": "followertagilla",
       "BossName": "bosskilla",

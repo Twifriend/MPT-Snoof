@@ -11,7 +11,7 @@
   ],
   "factory": [
     {
-      "BossChance": 35,
+      "BossChance": 5,
       "BossEscortAmount": "2,2,2,2,3",
       "BossEscortType": "pmcbot",
       "BossName": "pmcbot",

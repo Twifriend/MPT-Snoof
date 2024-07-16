@@ -1,11 +1,11 @@
 {
   "customs": [
     {
-      "BossChance": 100,
-      "BossEscortAmount": "1,2",
+      "BossChance": 5,
+      "BossEscortAmount": "2,3",
       "BossEscortType": "exusec",
       "BossName": "exusec",
-      "BossZone": null,
+      "BossZone": "ZoneScavBase",
       "Time": -1
     }
   ],

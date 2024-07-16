@@ -39,7 +39,7 @@
       },
       "raiders": {
          "customs": 0,
-         "factory": 0,
+         "factory": 2,
          "factory_night": 0,
          "groundzero": 0,
          "interchange": 0,
@@ -51,7 +51,7 @@
          "woods": 0
       },
       "rogues": {
-         "customs": 0,
+         "customs": 2,
          "factory": 0,
          "factory_night": 0,
          "groundzero": 0,
@@ -78,28 +78,28 @@
       }
    },
    "MaxBotCap": {
-      "factory": 16,
-      "customs": 24,
-      "woods": 26,
-      "shoreline": 24,
-      "lighthouse": 26,
-      "reserve": 24,
-      "interchange": 24,
-      "laboratory": 18,
-      "streets": 26,
-      "groundzero": 22
+      "factory": 13,
+      "customs": 16,
+      "woods": 16,
+      "shoreline": 16,
+      "lighthouse": 16,
+      "reserve": 16,
+      "interchange": 16,
+      "laboratory": 16,
+      "streets": 14,
+      "groundzero": 16
    },
    "NightMaxBotCap": {
-      "factory_night": 16,
-      "customs": 24,
-      "woods": 26,
-      "shoreline": 24,
-      "lighthouse": 26,
-      "reserve": 24,
-      "interchange": 24,
-      "laboratory": 18,
-      "streets": 26,
-      "groundzero": 22
+      "factory": 13,
+      "customs": 16,
+      "woods": 16,
+      "shoreline": 16,
+      "lighthouse": 16,
+      "reserve": 16,
+      "interchange": 16,
+      "laboratory": 16,
+      "streets": 14,
+      "groundzero": 16
    },
    "UseDefaultSpawns": {
       "Waves": false,
