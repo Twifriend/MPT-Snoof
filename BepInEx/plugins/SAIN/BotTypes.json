@@ -24,21 +24,14 @@
     "Name": "Usec",
     "Description": "A PMC of the Usec Faction",
     "Section": "PMCs",
-    "WildSpawnType": "sptUsec",
+    "WildSpawnType": "pmcUSEC",
     "BaseBrain": null
   },
   {
     "Name": "Bear",
     "Description": "A PMC of the Bear Faction",
     "Section": "PMCs",
-    "WildSpawnType": "sptBear",
-    "BaseBrain": null
-  },
-  {
-    "Name": "Scav Sniper",
-    "Description": "The Scav Snipers that spawn on rooftops on certain maps",
-    "Section": "Scavs",
-    "WildSpawnType": "marksman",
+    "WildSpawnType": "pmcBEAR",
     "BaseBrain": null
   },
   {
@@ -200,20 +193,6 @@
     "Description": "Reserve Boss Follower",
     "Section": "Followers",
     "WildSpawnType": "followerGluharAssault",
-    "BaseBrain": null
-  },
-  {
-    "Name": "Zryachiy",
-    "Description": "Lighthouse Island Sniper Boss",
-    "Section": "Bosses",
-    "WildSpawnType": "bossZryachiy",
-    "BaseBrain": null
-  },
-  {
-    "Name": "Zryachiy Guard",
-    "Description": "Lighthouse Island Sniper Boss Follower",
-    "Section": "Followers",
-    "WildSpawnType": "followerZryachiy",
     "BaseBrain": null
   },
   {

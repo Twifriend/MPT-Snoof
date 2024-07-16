@@ -1,9 +1,7 @@
 {
-  "SAINPersonality": "Rat",
   "Name": "Rat",
   "Description": "Scum of Tarkov. Rarely Seeks out enemies, and when they do - they will crab walk all the way there",
   "Assignment": {
-    "MaximumOfThisTypePerRaid": 0.0,
     "Enabled": true,
     "CanBeRandomlyAssigned": true,
     "RandomlyAssignedChance": 10.0,
@@ -19,9 +17,8 @@
       "assault",
       "assaultGroup",
       "crazyAssaultEvent",
-      "sptUsec",
-      "sptBear",
-      "marksman",
+      "pmcUSEC",
+      "pmcBEAR",
       "cursedAssault",
       "bossKnight",
       "followerBigPipe",
@@ -43,15 +40,12 @@
       "followerGluharScout",
       "followerGluharSecurity",
       "followerGluharAssault",
-      "bossZryachiy",
-      "followerZryachiy",
       "bossBoar",
       "followerBoar",
       "bossBoarSniper",
       "bossKolontay",
       "followerKolontayAssault",
-      "followerKolontaySecurity",
-      "shooterBTR"
+      "followerKolontaySecurity"
     ]
   },
   "Behavior": {
@@ -59,15 +53,15 @@
       "AggressionMultiplier": 1.0,
       "KickOpenAllDoors": false,
       "HoldGroundBaseTime": 1.0,
-      "HoldGroundMinRandom": 0.8,
+      "HoldGroundMinRandom": 0.75,
       "HoldGroundMaxRandom": 1.5
     },
     "Search": {
       "WillSearchForEnemy": true,
       "WillSearchFromAudio": true,
+      "HeardFromPeaceBehavior": "Freeze",
       "WillChaseDistantGunshots": false,
       "AudioStraightDistanceToIgnore": 125.0,
-      "AudioPathLengthDistanceToIgnore": 175.0,
       "SearchBaseTime": 240.0,
       "SearchWaitMultiplier": 1.0,
       "SprintWhileSearchChance": 0.0,
@@ -100,11 +94,15 @@
       "ConstantTaunt": false,
       "CanRespondToEnemyVoice": false,
       "TauntFrequency": 10.0,
+      "TauntChance": 0.0,
       "TauntMaxDistance": 70.0,
-      "CanFakeDeathRare": true,
-      "FakeDeathChance": 50.0,
+      "CanFakeDeathRare": false,
+      "FakeDeathChance": 0.0,
       "CanBegForLife": false
     }
   },
-  "StatModifiers": {}
+  "StatModifiers": {
+    "ScatterMultiplier": 1.0,
+    "VisionSpeedMultiplier": 1.0
+  }
 }

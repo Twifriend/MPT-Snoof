@@ -1,10 +1,11 @@
 {
-  "Name": "FIKA Co-op",
-  "Description": "Slightly more aggressive and accurate bots but still fair",
+  "Name": "FIKA CO-OP",
+  "Description": "AI are harder and PMCs are very aggressive",
   "Creator": "Twigga",
-  "SAINVersion": "2.3.3",
-  "SAINPresetVersion": "2.3.3",
-  "DateCreated": "06/01/2024 00:00:00",
+  "SAINVersion": "3.0.5",
+  "SAINPresetVersion": "3.0.5",
+  "DateCreated": "07/15/2024 00:00:00",
+  "BaseSAINDifficulty": "veryhard",
   "IsCustom": true,
   "CanEditName": true
 }

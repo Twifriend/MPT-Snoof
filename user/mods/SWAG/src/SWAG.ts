@@ -2,29 +2,29 @@ import {
   BossLocationSpawn,
   ILocationBase,
   Wave,
-} from "@spt-aki/models/eft/common/ILocationBase";
-import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes";
-import { IPostDBLoadMod } from "@spt-aki/models/external/IPostDBLoadMod";
-import { IPreAkiLoadMod } from "@spt-aki/models/external/IPreAkiLoadMod";
-import { IBotConfig } from "@spt-aki/models/spt/config/IBotConfig";
-import { ILocations } from "@spt-aki/models/spt/server/ILocations";
-import { ILocationConfig } from "@spt-aki/models/spt/config/ILocationConfig";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { ConfigServer } from "@spt-aki/servers/ConfigServer";
-import { IGlobals } from "@spt-aki/models/eft/common/IGlobals";
-import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
-import { ContextVariableType } from "@spt-aki/context/ContextVariableType";
-import { ApplicationContext } from "@spt-aki/context/ApplicationContext";
-import { WeatherController } from "@spt-aki/controllers/WeatherController";
-import { IGetRaidConfigurationRequestData } from "@spt-aki/models/eft/match/IGetRaidConfigurationRequestData";
-import { HttpResponseUtil } from "@spt-aki/utils/HttpResponseUtil";
-import { StaticRouterModService } from "@spt-aki/services/mod/staticRouter/StaticRouterModService";
-import { JsonUtil } from "@spt-aki/utils/JsonUtil";
-import { RandomUtil } from "@spt-aki/utils/RandomUtil";
+} from "@spt/models/eft/common/ILocationBase";
+import { ConfigTypes } from "@spt/models/enums/ConfigTypes";
+import { IPostDBLoadMod } from "@spt/models/external/IPostDBLoadMod";
+import { IPreSptLoadMod } from "@spt/models/external/IPreSptLoadMod";
+import { IBotConfig } from "@spt/models/spt/config/IBotConfig";
+import { ILocations } from "@spt/models/spt/server/ILocations";
+import { ILocationConfig } from "@spt/models/spt/config/ILocationConfig";
+import { ILogger } from "@spt/models/spt/utils/ILogger";
+import { ConfigServer } from "@spt/servers/ConfigServer";
+import { IGlobals } from "@spt/models/eft/common/IGlobals";
+import { DatabaseServer } from "@spt/servers/DatabaseServer";
+import { ContextVariableType } from "@spt/context/ContextVariableType";
+import { ApplicationContext } from "@spt/context/ApplicationContext";
+import { WeatherController } from "@spt/controllers/WeatherController";
+import { IGetRaidConfigurationRequestData } from "@spt/models/eft/match/IGetRaidConfigurationRequestData";
+import { HttpResponseUtil } from "@spt/utils/HttpResponseUtil";
+import { StaticRouterModService } from "@spt/services/mod/staticRouter/StaticRouterModService";
+import { JsonUtil } from "@spt/utils/JsonUtil";
+import { RandomUtil } from "@spt/utils/RandomUtil";
 import { DependencyContainer } from "tsyringe";
-import { LocationCallbacks } from "@spt-aki/callbacks/LocationCallbacks";
-import { SeasonalEventService } from "@spt-aki/services/SeasonalEventService";
-import { ProfileHelper } from "@spt-aki/helpers/ProfileHelper";
+import { LocationCallbacks } from "@spt/callbacks/LocationCallbacks";
+import { SeasonalEventService } from "@spt/services/SeasonalEventService";
+import { ProfileHelper } from "@spt/helpers/ProfileHelper";
 
 import * as fs from "fs";
 import * as path from "path";
@@ -129,7 +129,7 @@ type MapPatterns = {
   MapBosses: BossPattern[];
 };
 
-class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
+class SWAG implements IPreSptLoadMod, IPostDBLoadMod {
   public static savedLocationData: LocationBackupData = {
     factory4_day: undefined,
     factory4_night: undefined,
@@ -141,6 +141,8 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     shoreline: undefined,
     tarkovstreets: undefined,
     woods: undefined,
+    sandbox: undefined,
+    sandbox_high: undefined,
 
     // unused
     develop: undefined,
@@ -174,7 +176,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
     count: 0,
   };
 
-  preAkiLoad(container: DependencyContainer): void {
+  preSptLoad(container: DependencyContainer): void {
     const HttpResponse =
       container.resolve<HttpResponseUtil>("HttpResponseUtil");
 
@@ -187,12 +189,12 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
       [
         {
           url: "/client/match/offline/end",
-          action: (
+          action: async (
             url: string,
             info: any,
             sessionID: string,
             output: string
-          ): any => {
+          ): Promise<any> => {
             sessionId = sessionID;
             SWAG.ClearDefaultSpawns();
             SWAG.ConfigureMaps();
@@ -208,12 +210,12 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
       [
         {
           url: "/client/locations",
-          action: (
+          action: async (
             url: string,
             info: any,
             sessionID: string,
             output: string
-          ): any => {
+          ): Promise<any> => {
             sessionId = sessionID;
             SWAG.ClearDefaultSpawns();
             SWAG.ConfigureMaps();
@@ -229,7 +231,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
       [
         {
           url: "/client/items",
-          action: (
+          action: async (
             url: string,
             info: any,
             sessionID: string,
@@ -270,12 +272,12 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
       `${modName}/client/raid/configuration`,
       [{
         url: "/client/raid/configuration",
-        action: (
+        action: async (
           url: string,
           info: any,
           sessionID: string,
           output: string
-        ): any => {
+        ): Promise<any> => {
           try {
             // Retrieve configurations
             const botConfig = container.resolve<ConfigServer>("ConfigServer").getConfig<IBotConfig>(ConfigTypes.BOT);
@@ -637,7 +639,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
           const profileId = pmcProfile?._id;
           const punisherBossProgressFilePath = path.resolve(
             __dirname,
-            `../../PunisherBoss/profiles/${profileId}/progress.json`
+            `../../WTT-RogueJustice/profiles/${profileId}/progress.json`
           );
 
           try {
@@ -653,7 +655,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
           }
         } else {
           // if progress spawn chance is not enabled
-          return bossConfig.Bosses["punisher"][reverseMapNames[globalmap]];
+          return bossConfig.CustomBosses["punisher"][reverseMapNames[globalmap]];
         }
       } else {
         // if punisher is not enabled
@@ -684,7 +686,7 @@ class SWAG implements IPreAkiLoadMod, IPostDBLoadMod {
           }
         }
         // if progress spawn chance is not enabled
-        return bossConfig.Bosses["legion"][reverseMapNames[globalmap]];
+        return bossConfig.CustomBosses["legion"][reverseMapNames[globalmap]];
       }
       // if legion is not enabled
       else {

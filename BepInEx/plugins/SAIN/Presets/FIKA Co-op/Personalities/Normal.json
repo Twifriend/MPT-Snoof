@@ -1,9 +1,7 @@
 {
-  "SAINPersonality": "Normal",
   "Name": "Normal",
   "Description": "An Average Tarkov Enjoyer",
   "Assignment": {
-    "MaximumOfThisTypePerRaid": 0.0,
     "Enabled": true,
     "CanBeRandomlyAssigned": false,
     "RandomlyAssignedChance": 0.0,
@@ -13,15 +11,14 @@
     "PowerLevelScaleEnd": 1000.0,
     "InverseScale": true,
     "PowerLevelMin": 0.0,
-    "PowerLevelMax": 800.0,
+    "PowerLevelMax": 1000.0,
     "MaxChanceIfMeetRequirements": 50.0,
     "AllowedTypes": [
       "assault",
       "assaultGroup",
       "crazyAssaultEvent",
-      "sptUsec",
-      "sptBear",
-      "marksman",
+      "pmcUSEC",
+      "pmcBEAR",
       "cursedAssault",
       "bossKnight",
       "followerBigPipe",
@@ -45,20 +42,17 @@
       "followerGluharScout",
       "followerGluharSecurity",
       "followerGluharAssault",
-      "bossZryachiy",
-      "followerZryachiy",
       "bossBoar",
       "followerBoar",
       "bossBoarSniper",
       "bossKolontay",
       "followerKolontayAssault",
-      "followerKolontaySecurity",
-      "shooterBTR"
+      "followerKolontaySecurity"
     ]
   },
   "Behavior": {
     "General": {
-      "AggressionMultiplier": 1.1,
+      "AggressionMultiplier": 1.25,
       "KickOpenAllDoors": false,
       "HoldGroundBaseTime": 1.0,
       "HoldGroundMinRandom": 0.5,
@@ -67,9 +61,9 @@
     "Search": {
       "WillSearchForEnemy": true,
       "WillSearchFromAudio": true,
+      "HeardFromPeaceBehavior": "Freeze",
       "WillChaseDistantGunshots": true,
       "AudioStraightDistanceToIgnore": 125.0,
-      "AudioPathLengthDistanceToIgnore": 175.0,
       "SearchBaseTime": 60.0,
       "SearchWaitMultiplier": 1.0,
       "SprintWhileSearchChance": 10.0,
@@ -82,11 +76,11 @@
       "SearchHasEnemyPose": 1.0
     },
     "Rush": {
-      "CanRushEnemyReloadHeal": false,
+      "CanRushEnemyReloadHeal": true,
       "CanJumpCorners": true,
-      "JumpCornerChance": 25.0,
+      "JumpCornerChance": 15.0,
       "CanBunnyHop": true,
-      "BunnyHopChance": 4.0
+      "BunnyHopChance": 1.0
     },
     "Cover": {
       "CanShiftCoverPosition": true,
@@ -97,16 +91,20 @@
       "MoveToCoverHasEnemyPose": 1.0
     },
     "Talk": {
-      "CanTaunt": true,
+      "CanTaunt": false,
       "FrequentTaunt": false,
       "ConstantTaunt": false,
       "CanRespondToEnemyVoice": true,
       "TauntFrequency": 10.0,
+      "TauntChance": 50.0,
       "TauntMaxDistance": 50.0,
-      "CanFakeDeathRare": true,
-      "FakeDeathChance": 5.0,
+      "CanFakeDeathRare": false,
+      "FakeDeathChance": 2.0,
       "CanBegForLife": false
     }
   },
-  "StatModifiers": {}
+  "StatModifiers": {
+    "ScatterMultiplier": 0.95,
+    "VisionSpeedMultiplier": 0.95
+  }
 }

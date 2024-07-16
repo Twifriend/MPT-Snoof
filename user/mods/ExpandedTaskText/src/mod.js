@@ -51,8 +51,8 @@ class DExpandedTaskText {
     tasksHash;
     configHash;
     cache;
-    preAkiLoad(container) {
-        this.Instance.preAkiLoad(container, this.modName);
+    preSptLoad(container) {
+        this.Instance.preSptLoad(container, this.modName);
     }
     postDBLoad(container) {
         const startTime = performance.now();

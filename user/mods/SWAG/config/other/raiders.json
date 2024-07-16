@@ -1,12 +1,12 @@
 {
   "customs": [
     {
-      "BossChance": 45,
+      "BossChance": 35,
       "BossEscortAmount": "2,2,2,2,3",
       "BossEscortType": "pmcbot",
       "BossName": "pmcbot",
       "BossZone": null,
-      "Time": 1
+      "Time": -1
     }
   ],
   "factory": [
@@ -16,7 +16,7 @@
       "BossEscortType": "pmcbot",
       "BossName": "pmcbot",
       "BossZone": null,
-      "Time": 1
+      "Time": -1
     }
   ],
   "factory_night": [
@@ -26,7 +26,7 @@
       "BossEscortType": "pmcbot",
       "BossName": "pmcbot",
       "BossZone": null,
-      "Time": 1
+      "Time": -1
     }
   ],
   "groundzero": [
@@ -36,7 +36,7 @@
       "BossEscortType": "pmcbot",
       "BossName": "pmcbot",
       "BossZone": null,
-      "Time": 1
+      "Time": -1
     }
   ],
   "interchange": [
@@ -46,7 +46,7 @@
       "BossEscortType": "pmcbot",
       "BossName": "pmcbot",
       "BossZone": null,
-      "Time": 1
+      "Time": -1
     }
   ],
   "laboratory": [
@@ -246,12 +246,12 @@
       "BossEscortType": "pmcbot",
       "BossName": "pmcbot",
       "BossZone": null,
-      "Time": 1
+      "Time": -1
     }
   ],
   "reserve": [
     {
-      "BossChance": 55,
+      "BossChance": 35,
       "BossEscortAmount": "2,2,2,2,3",
       "BossEscortType": "pmcbot",
       "BossName": "pmcbot",
@@ -261,7 +261,7 @@
       "Time": 1470
     },
     {
-      "BossChance": 45,
+      "BossChance": 40,
       "BossEscortAmount": "2,2,2,2,3",
       "BossEscortType": "pmcbot",
       "BossName": "pmcbot",
@@ -273,7 +273,7 @@
       "TriggerName": "interactObject"
     },
     {
-      "BossChance": 45,
+      "BossChance": 40,
       "BossEscortAmount": "2,2,2,2,3",
       "BossEscortType": "pmcbot",
       "BossName": "pmcbot",
@@ -285,7 +285,7 @@
       "TriggerName": "interactObject"
     },
     {
-      "BossChance": 45,
+      "BossChance": 40,
       "BossEscortAmount": "2,2,2,2,3",
       "BossEscortType": "pmcbot",
       "BossName": "pmcbot",
@@ -304,7 +304,7 @@
       "BossEscortType": "pmcbot",
       "BossName": "pmcbot",
       "BossZone": null,
-      "Time": 1
+      "Time": -1
     }
   ],
   "streets": [
@@ -314,7 +314,7 @@
       "BossEscortType": "pmcbot",
       "BossName": "pmcbot",
       "BossZone": null,
-      "Time": 1
+      "Time": -1
     }
   ],
   "woods": [
@@ -324,7 +324,7 @@
       "BossEscortType": "pmcbot",
       "BossName": "pmcbot",
       "BossZone": null,
-      "Time": 1
+      "Time": -1
     }
   ]
 }

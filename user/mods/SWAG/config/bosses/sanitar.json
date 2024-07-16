@@ -81,7 +81,7 @@
   ],
   "shoreline": [
     {
-      "BossChance": 35,
+      "BossChance": 5,
       "BossEscortAmount": "2,3",
       "BossEscortType": "followersanitar",
       "BossName": "bosssanitar",

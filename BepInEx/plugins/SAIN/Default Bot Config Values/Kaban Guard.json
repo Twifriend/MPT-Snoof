@@ -610,7 +610,8 @@
         "AVOID_BTR_RADIUS_SQR": 1600.0,
         "SNIPER_FIRE_IMMUNE": false,
         "USE_ADD_TO_ENEMY_VALIDATION": false,
-        "VALID_REASONS_TO_ADD_ENEMY": null
+        "VALID_REASONS_TO_ADD_ENEMY": null,
+        "CHECK_MARK_OF_UNKNOWS": false
       },
       "Boss": {
         "BOSS_DIST_TO_WARNING": 34.0,
@@ -1400,7 +1401,8 @@
         "AVOID_BTR_RADIUS_SQR": 1600.0,
         "SNIPER_FIRE_IMMUNE": false,
         "USE_ADD_TO_ENEMY_VALIDATION": false,
-        "VALID_REASONS_TO_ADD_ENEMY": null
+        "VALID_REASONS_TO_ADD_ENEMY": null,
+        "CHECK_MARK_OF_UNKNOWS": false
       },
       "Boss": {
         "BOSS_DIST_TO_WARNING": 34.0,
@@ -2190,7 +2192,8 @@
         "AVOID_BTR_RADIUS_SQR": 1600.0,
         "SNIPER_FIRE_IMMUNE": false,
         "USE_ADD_TO_ENEMY_VALIDATION": false,
-        "VALID_REASONS_TO_ADD_ENEMY": null
+        "VALID_REASONS_TO_ADD_ENEMY": null,
+        "CHECK_MARK_OF_UNKNOWS": false
       },
       "Boss": {
         "BOSS_DIST_TO_WARNING": 34.0,
@@ -2980,7 +2983,8 @@
         "AVOID_BTR_RADIUS_SQR": 1600.0,
         "SNIPER_FIRE_IMMUNE": false,
         "USE_ADD_TO_ENEMY_VALIDATION": false,
-        "VALID_REASONS_TO_ADD_ENEMY": null
+        "VALID_REASONS_TO_ADD_ENEMY": null,
+        "CHECK_MARK_OF_UNKNOWS": false
       },
       "Boss": {
         "BOSS_DIST_TO_WARNING": 34.0,

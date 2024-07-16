@@ -1,9 +1,7 @@
 {
-  "SAINPersonality": "GigaChad",
   "Name": "GigaChad",
   "Description": "A true alpha threat. Hyper Aggressive and typically wearing high tier equipment.",
   "Assignment": {
-    "MaximumOfThisTypePerRaid": 0.0,
     "Enabled": true,
     "CanBeRandomlyAssigned": true,
     "RandomlyAssignedChance": 3.0,
@@ -13,11 +11,11 @@
     "PowerLevelScaleEnd": 500.0,
     "InverseScale": false,
     "PowerLevelMin": 250.0,
-    "PowerLevelMax": 800.0,
+    "PowerLevelMax": 1000.0,
     "MaxChanceIfMeetRequirements": 80.0,
     "AllowedTypes": [
-      "sptUsec",
-      "sptBear"
+      "pmcUSEC",
+      "pmcBEAR"
     ]
   },
   "Behavior": {
@@ -25,15 +23,15 @@
       "AggressionMultiplier": 1.75,
       "KickOpenAllDoors": true,
       "HoldGroundBaseTime": 1.2,
-      "HoldGroundMinRandom": 0.6,
+      "HoldGroundMinRandom": 0.65,
       "HoldGroundMaxRandom": 1.5
     },
     "Search": {
       "WillSearchForEnemy": true,
       "WillSearchFromAudio": true,
+      "HeardFromPeaceBehavior": "SearchNow",
       "WillChaseDistantGunshots": true,
       "AudioStraightDistanceToIgnore": 125.0,
-      "AudioPathLengthDistanceToIgnore": 175.0,
       "SearchBaseTime": 6.0,
       "SearchWaitMultiplier": 3.0,
       "SprintWhileSearchChance": 60.0,
@@ -48,9 +46,9 @@
     "Rush": {
       "CanRushEnemyReloadHeal": true,
       "CanJumpCorners": true,
-      "JumpCornerChance": 60.0,
+      "JumpCornerChance": 40.0,
       "CanBunnyHop": true,
-      "BunnyHopChance": 15.0
+      "BunnyHopChance": 10.0
     },
     "Cover": {
       "CanShiftCoverPosition": true,
@@ -63,14 +61,18 @@
     "Talk": {
       "CanTaunt": true,
       "FrequentTaunt": true,
-      "ConstantTaunt": false,
+      "ConstantTaunt": true,
       "CanRespondToEnemyVoice": true,
       "TauntFrequency": 8.0,
+      "TauntChance": 45.0,
       "TauntMaxDistance": 65.0,
       "CanFakeDeathRare": true,
-      "FakeDeathChance": 12.5,
+      "FakeDeathChance": 3.0,
       "CanBegForLife": false
     }
   },
-  "StatModifiers": {}
+  "StatModifiers": {
+    "ScatterMultiplier": 0.9,
+    "VisionSpeedMultiplier": 0.8
+  }
 }

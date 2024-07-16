@@ -109,6 +109,8 @@ class SWAG {
         shoreline: undefined,
         tarkovstreets: undefined,
         woods: undefined,
+        sandbox: undefined,
+        sandbox_high: undefined,
         // unused
         develop: undefined,
         hideout: undefined,
@@ -135,13 +137,13 @@ class SWAG {
     static bossCount = {
         count: 0,
     };
-    preAkiLoad(container) {
+    preSptLoad(container) {
         const HttpResponse = container.resolve("HttpResponseUtil");
         const staticRouterModService = container.resolve("StaticRouterModService");
         staticRouterModService.registerStaticRouter(`${modName}/client/match/offline/end`, [
             {
                 url: "/client/match/offline/end",
-                action: (url, info, sessionID, output) => {
+                action: async (url, info, sessionID, output) => {
                     sessionId = sessionID;
                     SWAG.ClearDefaultSpawns();
                     SWAG.ConfigureMaps();
@@ -152,7 +154,7 @@ class SWAG {
         staticRouterModService.registerStaticRouter(`${modName}/client/locations`, [
             {
                 url: "/client/locations",
-                action: (url, info, sessionID, output) => {
+                action: async (url, info, sessionID, output) => {
                     sessionId = sessionID;
                     SWAG.ClearDefaultSpawns();
                     SWAG.ConfigureMaps();
@@ -163,7 +165,7 @@ class SWAG {
         staticRouterModService.registerStaticRouter(`${modName}/client/items`, [
             {
                 url: "/client/items",
-                action: (url, info, sessionID, output) => {
+                action: async (url, info, sessionID, output) => {
                     sessionId = sessionID;
                     const locationConfig = container.resolve("ConfigServer").getConfig(ConfigTypes_1.ConfigTypes.LOCATION);
                     // as of SPT 3.6.0 we need to disable the new spawn system so that SWAG can clear spawns properly
@@ -186,7 +188,7 @@ class SWAG {
         ], "SWAG");
         staticRouterModService.registerStaticRouter(`${modName}/client/raid/configuration`, [{
                 url: "/client/raid/configuration",
-                action: (url, info, sessionID, output) => {
+                action: async (url, info, sessionID, output) => {
                     try {
                         // Retrieve configurations
                         const botConfig = container.resolve("ConfigServer").getConfig(ConfigTypes_1.ConfigTypes.BOT);
@@ -471,7 +473,7 @@ class SWAG {
                 if (bossConfig_json_1.default.CustomBosses.punisher.useProgressSpawnChance) {
                     const pmcProfile = profileHelper.getPmcProfile(sessionId);
                     const profileId = pmcProfile?._id;
-                    const punisherBossProgressFilePath = path.resolve(__dirname, `../../PunisherBoss/profiles/${profileId}/progress.json`);
+                    const punisherBossProgressFilePath = path.resolve(__dirname, `../../WTT-RogueJustice/profiles/${profileId}/progress.json`);
                     try {
                         const progressData = JSON.parse(fs.readFileSync(punisherBossProgressFilePath, "utf8"));
                         return progressData?.actualPunisherChance ?? 1;
@@ -483,7 +485,7 @@ class SWAG {
                 }
                 else {
                     // if progress spawn chance is not enabled
-                    return bossConfig_json_1.default.Bosses["punisher"][ClassDef_1.reverseMapNames[globalmap]];
+                    return bossConfig_json_1.default.CustomBosses["punisher"][ClassDef_1.reverseMapNames[globalmap]];
                 }
             }
             else {
@@ -504,7 +506,7 @@ class SWAG {
                     }
                 }
                 // if progress spawn chance is not enabled
-                return bossConfig_json_1.default.Bosses["legion"][ClassDef_1.reverseMapNames[globalmap]];
+                return bossConfig_json_1.default.CustomBosses["legion"][ClassDef_1.reverseMapNames[globalmap]];
             }
             // if legion is not enabled
             else {

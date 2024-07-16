@@ -1,9 +1,7 @@
 {
-  "SAINPersonality": "Timmy",
   "Name": "Timmy",
   "Description": "A New Player, terrified of everything.",
   "Assignment": {
-    "MaximumOfThisTypePerRaid": 0.0,
     "Enabled": true,
     "CanBeRandomlyAssigned": false,
     "RandomlyAssignedChance": 0.0,
@@ -19,9 +17,8 @@
       "assault",
       "assaultGroup",
       "crazyAssaultEvent",
-      "sptUsec",
-      "sptBear",
-      "marksman",
+      "pmcUSEC",
+      "pmcBEAR",
       "cursedAssault",
       "bossKnight",
       "followerBigPipe",
@@ -43,15 +40,12 @@
       "followerGluharScout",
       "followerGluharSecurity",
       "followerGluharAssault",
-      "bossZryachiy",
-      "followerZryachiy",
       "bossBoar",
       "followerBoar",
       "bossBoarSniper",
       "bossKolontay",
       "followerKolontayAssault",
-      "followerKolontaySecurity",
-      "shooterBTR"
+      "followerKolontaySecurity"
     ]
   },
   "Behavior": {
@@ -59,15 +53,15 @@
       "AggressionMultiplier": 0.9,
       "KickOpenAllDoors": false,
       "HoldGroundBaseTime": 0.5,
-      "HoldGroundMinRandom": 0.8,
+      "HoldGroundMinRandom": 0.75,
       "HoldGroundMaxRandom": 1.5
     },
     "Search": {
       "WillSearchForEnemy": true,
       "WillSearchFromAudio": false,
+      "HeardFromPeaceBehavior": "Freeze",
       "WillChaseDistantGunshots": false,
       "AudioStraightDistanceToIgnore": 125.0,
-      "AudioPathLengthDistanceToIgnore": 175.0,
       "SearchBaseTime": 90.0,
       "SearchWaitMultiplier": 0.5,
       "SprintWhileSearchChance": 0.0,
@@ -100,11 +94,15 @@
       "ConstantTaunt": false,
       "CanRespondToEnemyVoice": false,
       "TauntFrequency": 10.0,
+      "TauntChance": 50.0,
       "TauntMaxDistance": 70.0,
       "CanFakeDeathRare": false,
       "FakeDeathChance": 0.0,
       "CanBegForLife": true
     }
   },
-  "StatModifiers": {}
+  "StatModifiers": {
+    "ScatterMultiplier": 1.05,
+    "VisionSpeedMultiplier": 1.05
+  }
 }

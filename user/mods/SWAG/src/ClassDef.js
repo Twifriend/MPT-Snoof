@@ -137,7 +137,8 @@ exports.reverseMapNames = {
     interchange: "interchange",
     laboratory: "laboratory",
     tarkovstreets: "streets",
-    sandbox: "groundzero"
+    sandbox: "groundzero",
+    sandbox_high: "groundzero"
 };
 exports.diffProper = {
     easy: "easy",
@@ -158,7 +159,8 @@ exports.validMaps = [
     "shoreline",
     "tarkovstreets",
     "woods",
-    "sandbox"
+    "sandbox",
+    "sandbox_high"
 ];
 exports.aiAmountProper = {
     low: 0.5,

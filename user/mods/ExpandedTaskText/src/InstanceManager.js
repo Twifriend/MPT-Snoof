@@ -31,20 +31,20 @@ class InstanceManager {
     modName;
     debug;
     // Useful Paths
-    modPath = path.join(process.cwd(), "\\user\\mods\\TarkovTools\\");
-    dbPath = path.join(process.cwd(), "\\user\\mods\\TarkovTools\\database");
-    profilePath = path.join(process.cwd(), "\\user\\profiles");
-    cachePath = path.resolve(__dirname, "..\\config\\cache.json");
+    modPath = path.join(process.cwd(), "user", "mods", "TarkovTools");
+    dbPath = path.join(process.cwd(), "user", "mods", "TarkovTools", "database");
+    profilePath = path.join(process.cwd(), "user", "profiles");
+    cachePath = path.join(path.dirname(__filename), "..", "config", "cache.json");
     // Instances
     container;
-    preAkiModLoader;
+    preSptModLoader;
     configServer;
     saveServer;
     itemHelper;
     logger;
     staticRouter;
     //#endregion
-    //#region Acceessible in or after postDBLoad
+    //#region Accessible in or after postDBLoad
     database;
     customItem;
     imageRouter;
@@ -55,10 +55,10 @@ class InstanceManager {
     hashUtil;
     //#endregion
     // Call at the start of the mods postDBLoad method
-    preAkiLoad(container, mod) {
+    preSptLoad(container, mod) {
         this.modName = mod;
         this.container = container;
-        this.preAkiModLoader = container.resolve("PreAkiModLoader");
+        this.preSptModLoader = container.resolve("PreSptModLoader");
         this.imageRouter = container.resolve("ImageRouter");
         this.configServer = container.resolve("ConfigServer");
         this.saveServer = container.resolve("SaveServer");

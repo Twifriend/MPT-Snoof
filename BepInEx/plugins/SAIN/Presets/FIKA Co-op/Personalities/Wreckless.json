@@ -1,27 +1,24 @@
 {
-  "SAINPersonality": "Wreckless",
   "Name": "Wreckless",
-  "Description": "Rush B Cyka Blyat. Who care if I die? Gotta get the clip",
+  "Description": "This personality tends to sprint at their enemies, and will very frequently scream at everyone - Usually both at the same time. More Aggressive than Gigachads.",
   "Assignment": {
-    "MaximumOfThisTypePerRaid": 0.0,
     "Enabled": true,
     "CanBeRandomlyAssigned": true,
     "RandomlyAssignedChance": 1.0,
-    "MinLevel": 15.0,
+    "MinLevel": 15.000001,
     "MaxLevel": 100.0,
     "PowerLevelScaleStart": 250.0,
     "PowerLevelScaleEnd": 500.0,
     "InverseScale": false,
     "PowerLevelMin": 250.0,
-    "PowerLevelMax": 800.0,
-    "MaxChanceIfMeetRequirements": 10.0,
+    "PowerLevelMax": 1000.0,
+    "MaxChanceIfMeetRequirements": 5.0,
     "AllowedTypes": [
       "assault",
       "assaultGroup",
       "crazyAssaultEvent",
-      "sptUsec",
-      "sptBear",
-      "marksman",
+      "pmcUSEC",
+      "pmcBEAR",
       "cursedAssault",
       "bossKnight",
       "followerBigPipe",
@@ -45,15 +42,12 @@
       "followerGluharScout",
       "followerGluharSecurity",
       "followerGluharAssault",
-      "bossZryachiy",
-      "followerZryachiy",
       "bossBoar",
       "followerBoar",
       "bossBoarSniper",
       "bossKolontay",
       "followerKolontayAssault",
-      "followerKolontaySecurity",
-      "shooterBTR"
+      "followerKolontaySecurity"
     ]
   },
   "Behavior": {
@@ -61,15 +55,15 @@
       "AggressionMultiplier": 2.0,
       "KickOpenAllDoors": true,
       "HoldGroundBaseTime": 2.0,
-      "HoldGroundMinRandom": 0.8,
-      "HoldGroundMaxRandom": 2.0
+      "HoldGroundMinRandom": 0.75,
+      "HoldGroundMaxRandom": 2.5
     },
     "Search": {
       "WillSearchForEnemy": true,
       "WillSearchFromAudio": true,
+      "HeardFromPeaceBehavior": "Charge",
       "WillChaseDistantGunshots": true,
       "AudioStraightDistanceToIgnore": 125.0,
-      "AudioPathLengthDistanceToIgnore": 175.0,
       "SearchBaseTime": 0.1,
       "SearchWaitMultiplier": 1.0,
       "SprintWhileSearchChance": 85.0,
@@ -102,11 +96,15 @@
       "ConstantTaunt": true,
       "CanRespondToEnemyVoice": true,
       "TauntFrequency": 4.0,
+      "TauntChance": 33.0,
       "TauntMaxDistance": 75.0,
       "CanFakeDeathRare": true,
       "FakeDeathChance": 6.0,
       "CanBegForLife": false
     }
   },
-  "StatModifiers": {}
+  "StatModifiers": {
+    "ScatterMultiplier": 1.05,
+    "VisionSpeedMultiplier": 0.8
+  }
 }

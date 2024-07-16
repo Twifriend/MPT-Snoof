@@ -1,75 +1,37 @@
 {
-  "SAINPersonality": "Chad",
   "Name": "Chad",
   "Description": "An aggressive player. Typically wearing high tier equipment, and is more aggressive than usual.",
   "Assignment": {
-    "MaximumOfThisTypePerRaid": 0.0,
     "Enabled": true,
     "CanBeRandomlyAssigned": true,
     "RandomlyAssignedChance": 8.0,
-    "MinLevel": 10.0,
+    "MinLevel": 0.0,
     "MaxLevel": 100.0,
     "PowerLevelScaleStart": 100.0,
     "PowerLevelScaleEnd": 400.0,
     "InverseScale": false,
-    "PowerLevelMin": 150.0,
-    "PowerLevelMax": 800.0,
+    "PowerLevelMin": 100.0,
+    "PowerLevelMax": 1000.0,
     "MaxChanceIfMeetRequirements": 80.0,
     "AllowedTypes": [
-      "assault",
-      "assaultGroup",
-      "crazyAssaultEvent",
-      "sptUsec",
-      "sptBear",
-      "marksman",
-      "cursedAssault",
-      "bossKnight",
-      "followerBigPipe",
-      "followerBirdEye",
-      "exUsec",
-      "pmcBot",
-      "arenaFighterEvent",
-      "sectantPriest",
-      "sectantWarrior",
-      "bossKilla",
-      "bossBully",
-      "followerBully",
-      "bossKojaniy",
-      "followerKojaniy",
-      "bossTagilla",
-      "followerTagilla",
-      "bossSanitar",
-      "followerSanitar",
-      "bossGluhar",
-      "followerGluharSnipe",
-      "followerGluharScout",
-      "followerGluharSecurity",
-      "followerGluharAssault",
-      "bossZryachiy",
-      "followerZryachiy",
-      "bossBoar",
-      "followerBoar",
-      "bossBoarSniper",
-      "bossKolontay",
-      "followerKolontayAssault",
-      "followerKolontaySecurity",
-      "shooterBTR"
+      "pmcUSEC",
+      "pmcBEAR"
     ]
   },
   "Behavior": {
     "General": {
-      "AggressionMultiplier": 1.35,
+      "AggressionMultiplier": 1.5,
       "KickOpenAllDoors": false,
       "HoldGroundBaseTime": 1.5,
-      "HoldGroundMinRandom": 0.8,
+      "HoldGroundMinRandom": 0.75,
       "HoldGroundMaxRandom": 1.5
     },
     "Search": {
       "WillSearchForEnemy": true,
       "WillSearchFromAudio": true,
+      "HeardFromPeaceBehavior": "Freeze",
       "WillChaseDistantGunshots": true,
       "AudioStraightDistanceToIgnore": 125.0,
-      "AudioPathLengthDistanceToIgnore": 175.0,
       "SearchBaseTime": 16.0,
       "SearchWaitMultiplier": 1.0,
       "SprintWhileSearchChance": 30.0,
@@ -84,9 +46,9 @@
     "Rush": {
       "CanRushEnemyReloadHeal": true,
       "CanJumpCorners": true,
-      "JumpCornerChance": 40.0,
+      "JumpCornerChance": 25.0,
       "CanBunnyHop": true,
-      "BunnyHopChance": 10.0
+      "BunnyHopChance": 8.0
     },
     "Cover": {
       "CanShiftCoverPosition": true,
@@ -101,12 +63,16 @@
       "FrequentTaunt": true,
       "ConstantTaunt": false,
       "CanRespondToEnemyVoice": true,
-      "TauntFrequency": 15.0,
+      "TauntFrequency": 20.0,
+      "TauntChance": 60.0,
       "TauntMaxDistance": 50.0,
-      "CanFakeDeathRare": true,
-      "FakeDeathChance": 6.5,
+      "CanFakeDeathRare": false,
+      "FakeDeathChance": 0.0,
       "CanBegForLife": false
     }
   },
-  "StatModifiers": {}
+  "StatModifiers": {
+    "ScatterMultiplier": 0.9,
+    "VisionSpeedMultiplier": 0.9
+  }
 }

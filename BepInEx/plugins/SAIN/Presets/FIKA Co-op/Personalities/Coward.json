@@ -1,14 +1,12 @@
 {
-  "SAINPersonality": "Coward",
   "Name": "Coward",
   "Description": "A player who is more passive and afraid than usual. Will never seek out enemies and will hide in a closet until the scary thing goes away.",
   "Assignment": {
-    "MaximumOfThisTypePerRaid": 0.0,
     "Enabled": true,
     "CanBeRandomlyAssigned": true,
-    "RandomlyAssignedChance": 3.0,
+    "RandomlyAssignedChance": 5.0,
     "MinLevel": 0.0,
-    "MaxLevel": 20.0,
+    "MaxLevel": 25.0,
     "PowerLevelScaleStart": 0.0,
     "PowerLevelScaleEnd": 250.0,
     "InverseScale": true,
@@ -19,9 +17,8 @@
       "assault",
       "assaultGroup",
       "crazyAssaultEvent",
-      "sptUsec",
-      "sptBear",
-      "marksman",
+      "pmcUSEC",
+      "pmcBEAR",
       "cursedAssault",
       "bossKnight",
       "followerBigPipe",
@@ -43,31 +40,28 @@
       "followerGluharScout",
       "followerGluharSecurity",
       "followerGluharAssault",
-      "bossZryachiy",
-      "followerZryachiy",
       "bossBoar",
       "followerBoar",
       "bossBoarSniper",
       "bossKolontay",
       "followerKolontayAssault",
-      "followerKolontaySecurity",
-      "shooterBTR"
+      "followerKolontaySecurity"
     ]
   },
   "Behavior": {
     "General": {
-      "AggressionMultiplier": 0.85,
+      "AggressionMultiplier": 1.0,
       "KickOpenAllDoors": false,
       "HoldGroundBaseTime": 0.2,
-      "HoldGroundMinRandom": 0.8,
+      "HoldGroundMinRandom": 0.75,
       "HoldGroundMaxRandom": 1.5
     },
     "Search": {
       "WillSearchForEnemy": false,
       "WillSearchFromAudio": false,
+      "HeardFromPeaceBehavior": "Freeze",
       "WillChaseDistantGunshots": false,
       "AudioStraightDistanceToIgnore": 125.0,
-      "AudioPathLengthDistanceToIgnore": 175.0,
       "SearchBaseTime": 40.0,
       "SearchWaitMultiplier": 1.0,
       "SprintWhileSearchChance": 0.0,
@@ -100,11 +94,15 @@
       "ConstantTaunt": false,
       "CanRespondToEnemyVoice": true,
       "TauntFrequency": 15.0,
-      "TauntMaxDistance": 70.0,
-      "CanFakeDeathRare": true,
-      "FakeDeathChance": 25.0,
+      "TauntChance": 50.0,
+      "TauntMaxDistance": 50.0,
+      "CanFakeDeathRare": false,
+      "FakeDeathChance": 2.0,
       "CanBegForLife": true
     }
   },
-  "StatModifiers": {}
+  "StatModifiers": {
+    "ScatterMultiplier": 1.0,
+    "VisionSpeedMultiplier": 1.0
+  }
 }

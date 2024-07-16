@@ -11,7 +11,7 @@
   ],
   "factory": [
     {
-      "BossChance": 35,
+      "BossChance": 30,
       "BossEscortAmount": "0",
       "BossEscortType": "followerbully",
       "BossName": "bosstagilla",
@@ -23,7 +23,7 @@
   ],
   "factory_night": [
     {
-      "BossChance": 35,
+      "BossChance": 30,
       "BossEscortAmount": "0",
       "BossEscortType": "followerbully",
       "BossName": "bosstagilla",

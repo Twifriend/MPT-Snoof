@@ -1,23 +1,23 @@
 import * as fs from "fs";
 import * as path from "path";
 
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
-import { IDatabaseTables } from "@spt-aki/models/spt/server/IDatabaseTables";
-import { StaticRouterModService } from "@spt-aki/services/mod/staticRouter/StaticRouterModService";
+import { ILogger } from "@spt/models/spt/utils/ILogger";
+import { DatabaseServer } from "@spt/servers/DatabaseServer";
+import { IDatabaseTables } from "@spt/models/spt/server/IDatabaseTables";
+import { StaticRouterModService } from "@spt/services/mod/staticRouter/StaticRouterModService";
 import { DependencyContainer, inject } from "tsyringe";
-import { CustomItemService } from "@spt-aki/services/mod/CustomItemService";
-import { ImageRouter } from "@spt-aki/routers/ImageRouter";
-import { PreAkiModLoader } from "@spt-aki/loaders/PreAkiModLoader";
-import { ConfigServer } from "@spt-aki/servers/ConfigServer";
-import { JsonUtil } from "@spt-aki/utils/JsonUtil";
-import { ProfileHelper } from "@spt-aki/helpers/ProfileHelper";
-import { RagfairPriceService } from "@spt-aki/services/RagfairPriceService";
-import { ImporterUtil } from "@spt-aki/utils/ImporterUtil";
-import { SaveServer } from "@spt-aki/servers/SaveServer";
-import { ItemHelper } from "@spt-aki/helpers/ItemHelper";
-import { LogTextColor } from "@spt-aki/models/spt/logging/LogTextColor";
-import { HashUtil } from "@spt-aki/utils/HashUtil";
+import { CustomItemService } from "@spt/services/mod/CustomItemService";
+import { ImageRouter } from "@spt/routers/ImageRouter";
+import { PreSptModLoader } from "@spt/loaders/PreSptModLoader";
+import { ConfigServer } from "@spt/servers/ConfigServer";
+import { JsonUtil } from "@spt/utils/JsonUtil";
+import { ProfileHelper } from "@spt/helpers/ProfileHelper";
+import { RagfairPriceService } from "@spt/services/RagfairPriceService";
+import { ImporterUtil } from "@spt/utils/ImporterUtil";
+import { SaveServer } from "@spt/servers/SaveServer";
+import { ItemHelper } from "@spt/helpers/ItemHelper";
+import { LogTextColor } from "@spt/models/spt/logging/LogTextColor";
+import { HashUtil } from "@spt/utils/HashUtil";
 
 export class InstanceManager 
 {
@@ -25,14 +25,14 @@ export class InstanceManager
     public modName: string;
     public debug: boolean;
     // Useful Paths
-    public modPath: string = path.join(process.cwd(), "\\user\\mods\\TarkovTools\\");
-    public dbPath: string = path.join(process.cwd(), "\\user\\mods\\TarkovTools\\database");
-    public profilePath: string = path.join(process.cwd(), "\\user\\profiles");
-    public cachePath: string = path.resolve(__dirname, "..\\config\\cache.json");
+    public modPath: string = path.join(process.cwd(), "user", "mods", "TarkovTools");
+    public dbPath: string = path.join(process.cwd(), "user", "mods", "TarkovTools", "database");
+    public profilePath: string = path.join(process.cwd(), "user", "profiles");
+    public cachePath: string = path.join(path.dirname(__filename), "..", "config", "cache.json");
 
     // Instances
     public container: DependencyContainer;
-    public preAkiModLoader: PreAkiModLoader;
+    public preSptModLoader: PreSptModLoader;
     public configServer: ConfigServer;
     public saveServer: SaveServer;
     public itemHelper: ItemHelper;
@@ -40,7 +40,7 @@ export class InstanceManager
     public staticRouter: StaticRouterModService;
     //#endregion
 
-    //#region Acceessible in or after postDBLoad
+    //#region Accessible in or after postDBLoad
     public database: IDatabaseTables;
     public customItem: CustomItemService;
     public imageRouter: ImageRouter;
@@ -52,15 +52,12 @@ export class InstanceManager
     //#endregion
 
     // Call at the start of the mods postDBLoad method
-    public preAkiLoad(container: DependencyContainer, mod: string): void
+    public preSptLoad(container: DependencyContainer, mod: string): void
     {
-
-        
-
         this.modName = mod;
 
         this.container = container;
-        this.preAkiModLoader = container.resolve<PreAkiModLoader>("PreAkiModLoader");
+        this.preSptModLoader = container.resolve<PreSptModLoader>("PreSptModLoader");
         this.imageRouter = container.resolve<ImageRouter>("ImageRouter");
         this.configServer = container.resolve<ConfigServer>("ConfigServer");
         this.saveServer = container.resolve<SaveServer>("SaveServer");
