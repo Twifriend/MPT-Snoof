@@ -31,7 +31,7 @@ class ModLoader implements IPostAkiLoadMod, IPostDBLoadMod {
             "parentId": "hideout",
             "slotId": "hideout",
             "upd": {
-                "StackObjectsCount": 9999999,
+                "StackObjectsCount": 20000,
                 "BuyRestrictionMax": config.buy_restriction_max,
                 "BuyRestrictionCurrent": 0
             }

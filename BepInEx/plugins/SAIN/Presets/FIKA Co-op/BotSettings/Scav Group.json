@@ -41,7 +41,7 @@
         "CanThrowWhileSprinting": false,
         "ThrowAtVisibleEnemies": false,
         "TimeSinceSeenBeforeThrow": 3.0,
-        "ThrowGrenadeFrequency": 4.0,
+        "ThrowGrenadeFrequency": 8.0,
         "MinFriendlyDistance": 8.0,
         "MinEnemyDistance": 8.0,
         "GrenadePrecision": 0.2,
@@ -61,7 +61,7 @@
         "VISIBLE_DISNACE_WITH_IR_LIGHT": 65.0
       },
       "Mind": {
-        "Aggression": 1.0,
+        "Aggression": 0.8,
         "WeaponProficiency": 0.5,
         "TalkFrequency": 1.0,
         "CanTalk": true,
@@ -128,7 +128,7 @@
         "CanThrowWhileSprinting": false,
         "ThrowAtVisibleEnemies": false,
         "TimeSinceSeenBeforeThrow": 3.0,
-        "ThrowGrenadeFrequency": 4.0,
+        "ThrowGrenadeFrequency": 8.0,
         "MinFriendlyDistance": 8.0,
         "MinEnemyDistance": 8.0,
         "GrenadePrecision": 0.2,
@@ -148,7 +148,7 @@
         "VISIBLE_DISNACE_WITH_IR_LIGHT": 65.0
       },
       "Mind": {
-        "Aggression": 1.0,
+        "Aggression": 0.8,
         "WeaponProficiency": 0.5,
         "TalkFrequency": 1.0,
         "CanTalk": true,
@@ -215,7 +215,7 @@
         "CanThrowWhileSprinting": false,
         "ThrowAtVisibleEnemies": false,
         "TimeSinceSeenBeforeThrow": 3.0,
-        "ThrowGrenadeFrequency": 4.0,
+        "ThrowGrenadeFrequency": 8.0,
         "MinFriendlyDistance": 8.0,
         "MinEnemyDistance": 8.0,
         "GrenadePrecision": 0.2,
@@ -235,7 +235,7 @@
         "VISIBLE_DISNACE_WITH_IR_LIGHT": 65.0
       },
       "Mind": {
-        "Aggression": 1.0,
+        "Aggression": 0.8,
         "WeaponProficiency": 0.5,
         "TalkFrequency": 1.0,
         "CanTalk": true,
@@ -302,7 +302,7 @@
         "CanThrowWhileSprinting": false,
         "ThrowAtVisibleEnemies": false,
         "TimeSinceSeenBeforeThrow": 3.0,
-        "ThrowGrenadeFrequency": 4.0,
+        "ThrowGrenadeFrequency": 8.0,
         "MinFriendlyDistance": 8.0,
         "MinEnemyDistance": 8.0,
         "GrenadePrecision": 0.2,
@@ -322,7 +322,7 @@
         "VISIBLE_DISNACE_WITH_IR_LIGHT": 65.0
       },
       "Mind": {
-        "Aggression": 1.0,
+        "Aggression": 0.9,
         "WeaponProficiency": 0.5,
         "TalkFrequency": 1.0,
         "CanTalk": true,

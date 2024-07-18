@@ -6,7 +6,7 @@
     "easy": {
       "Core": {
         "VisibleAngle": 170.0,
-        "VisibleDistance": 200.0,
+        "VisibleDistance": 185.0,
         "GainSightCoef": 0.05,
         "AccuratySpeed": 0.05,
         "ScatteringPerMeter": 0.045,
@@ -41,7 +41,7 @@
         "CanThrowWhileSprinting": false,
         "ThrowAtVisibleEnemies": false,
         "TimeSinceSeenBeforeThrow": 3.0,
-        "ThrowGrenadeFrequency": 4.0,
+        "ThrowGrenadeFrequency": 7.0,
         "MinFriendlyDistance": 8.0,
         "MinEnemyDistance": 8.0,
         "GrenadePrecision": 0.1,
@@ -93,7 +93,7 @@
     "normal": {
       "Core": {
         "VisibleAngle": 170.0,
-        "VisibleDistance": 210.0,
+        "VisibleDistance": 185.0,
         "GainSightCoef": 0.04,
         "AccuratySpeed": 0.05,
         "ScatteringPerMeter": 0.045,
@@ -128,7 +128,7 @@
         "CanThrowWhileSprinting": false,
         "ThrowAtVisibleEnemies": false,
         "TimeSinceSeenBeforeThrow": 3.0,
-        "ThrowGrenadeFrequency": 4.0,
+        "ThrowGrenadeFrequency": 7.0,
         "MinFriendlyDistance": 8.0,
         "MinEnemyDistance": 8.0,
         "GrenadePrecision": 0.08,
@@ -180,7 +180,7 @@
     "hard": {
       "Core": {
         "VisibleAngle": 170.0,
-        "VisibleDistance": 225.0,
+        "VisibleDistance": 200.0,
         "GainSightCoef": 0.03,
         "AccuratySpeed": 0.05,
         "ScatteringPerMeter": 0.045,
@@ -215,7 +215,7 @@
         "CanThrowWhileSprinting": false,
         "ThrowAtVisibleEnemies": false,
         "TimeSinceSeenBeforeThrow": 3.0,
-        "ThrowGrenadeFrequency": 4.0,
+        "ThrowGrenadeFrequency": 7.0,
         "MinFriendlyDistance": 8.0,
         "MinEnemyDistance": 8.0,
         "GrenadePrecision": 0.05,
@@ -267,7 +267,7 @@
     "impossible": {
       "Core": {
         "VisibleAngle": 170.0,
-        "VisibleDistance": 240.0,
+        "VisibleDistance": 200.0,
         "GainSightCoef": 0.02,
         "AccuratySpeed": 0.05,
         "ScatteringPerMeter": 0.045,
@@ -302,7 +302,7 @@
         "CanThrowWhileSprinting": false,
         "ThrowAtVisibleEnemies": false,
         "TimeSinceSeenBeforeThrow": 3.0,
-        "ThrowGrenadeFrequency": 4.0,
+        "ThrowGrenadeFrequency": 7.0,
         "MinFriendlyDistance": 8.0,
         "MinEnemyDistance": 8.0,
         "GrenadePrecision": 0.01,

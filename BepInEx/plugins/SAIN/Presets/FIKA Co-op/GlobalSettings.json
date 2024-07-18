@@ -337,7 +337,7 @@
       "Timmy": false,
       "Normal": false
     },
-    "GlobalAggression": 1.65,
+    "GlobalAggression": 1.5,
     "SneakyBots": true,
     "OnlySneakyPersonalitiesSneaky": false,
     "MaximumDistanceToBeSneaky": 80.0,

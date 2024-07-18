@@ -41,7 +41,7 @@
         "CanThrowWhileSprinting": false,
         "ThrowAtVisibleEnemies": false,
         "TimeSinceSeenBeforeThrow": 3.0,
-        "ThrowGrenadeFrequency": 4.0,
+        "ThrowGrenadeFrequency": 8.0,
         "MinFriendlyDistance": 8.0,
         "MinEnemyDistance": 8.0,
         "GrenadePrecision": 0.3,
@@ -61,7 +61,7 @@
         "VISIBLE_DISNACE_WITH_IR_LIGHT": 65.0
       },
       "Mind": {
-        "Aggression": 1.0,
+        "Aggression": 0.7,
         "WeaponProficiency": 0.5,
         "TalkFrequency": 1.0,
         "CanTalk": true,
@@ -128,7 +128,7 @@
         "CanThrowWhileSprinting": false,
         "ThrowAtVisibleEnemies": false,
         "TimeSinceSeenBeforeThrow": 3.0,
-        "ThrowGrenadeFrequency": 4.0,
+        "ThrowGrenadeFrequency": 8.0,
         "MinFriendlyDistance": 8.0,
         "MinEnemyDistance": 8.0,
         "GrenadePrecision": 0.2,
@@ -148,7 +148,7 @@
         "VISIBLE_DISNACE_WITH_IR_LIGHT": 65.0
       },
       "Mind": {
-        "Aggression": 1.0,
+        "Aggression": 0.7,
         "WeaponProficiency": 0.5,
         "TalkFrequency": 1.0,
         "CanTalk": true,
@@ -215,7 +215,7 @@
         "CanThrowWhileSprinting": false,
         "ThrowAtVisibleEnemies": false,
         "TimeSinceSeenBeforeThrow": 3.0,
-        "ThrowGrenadeFrequency": 4.0,
+        "ThrowGrenadeFrequency": 8.0,
         "MinFriendlyDistance": 8.0,
         "MinEnemyDistance": 8.0,
         "GrenadePrecision": 0.1,
@@ -235,7 +235,7 @@
         "VISIBLE_DISNACE_WITH_IR_LIGHT": 65.0
       },
       "Mind": {
-        "Aggression": 1.0,
+        "Aggression": 0.7,
         "WeaponProficiency": 0.5,
         "TalkFrequency": 1.0,
         "CanTalk": true,
@@ -268,11 +268,11 @@
       "Core": {
         "VisibleAngle": 170.0,
         "VisibleDistance": 137.0,
-        "GainSightCoef": 0.01,
+        "GainSightCoef": 0.03,
         "AccuratySpeed": 0.3,
         "ScatteringPerMeter": 0.05,
         "ScatteringClosePerMeter": 0.12,
-        "HearingSense": 3.85,
+        "HearingSense": 3.0,
         "CanGrenade": true
       },
       "Aiming": {
@@ -302,7 +302,7 @@
         "CanThrowWhileSprinting": false,
         "ThrowAtVisibleEnemies": false,
         "TimeSinceSeenBeforeThrow": 3.0,
-        "ThrowGrenadeFrequency": 4.0,
+        "ThrowGrenadeFrequency": 8.0,
         "MinFriendlyDistance": 8.0,
         "MinEnemyDistance": 8.0,
         "GrenadePrecision": 0.01,
@@ -322,7 +322,7 @@
         "VISIBLE_DISNACE_WITH_IR_LIGHT": 65.0
       },
       "Mind": {
-        "Aggression": 1.0,
+        "Aggression": 0.8,
         "WeaponProficiency": 0.5,
         "TalkFrequency": 1.0,
         "CanTalk": true,
