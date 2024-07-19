@@ -1,0 +1,12 @@
+{
+    "manifest": [
+        {
+            "key": "Mods/MAGS/sr25drum.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        }
+    ]
+}

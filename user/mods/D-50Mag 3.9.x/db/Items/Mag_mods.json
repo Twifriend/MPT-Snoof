@@ -1,0 +1,107 @@
+{
+	"SR25DRUM": {
+		"itemTplToClone": "5df8f541c41b2312ea3335e3",
+		"parentId": "5448bc234bdc2d3c308b4569",
+		"handbookParentId": "5b5f754a86f774094242f19b",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Mods/MAGS/sr25drum.bundle",
+				"rcid": ""
+			},
+			"Ergonomics": -16,
+			"Width": 1,
+			"Height": 2,
+			"Weight": 0.72,
+			"LoadUnloadModifier": 60,
+			"CheckTimeModifier": 20,
+			"CheckOverride": 0,
+			"ReloadMagType": "ExternalMagazine",
+			"VisibleAmmoRangesString": "1-3",
+			"MalfunctionChance": 0.15,
+			"magAnimationIndex": 5,
+			"Cartridges": [
+				{
+				  "_name": "cartridges",
+				  "_id": "5aaa5e60e5b5b000140293d8",
+				  "_parent": "SR25DRUM",
+				  "_max_count": 50,
+				  "_props": {
+					"filters": [
+					  {
+						"Filter": [
+						  "5a6086ea4f39f99cd479502f",
+                  "5a608bf24f39f98ffc77720e",
+                  "58dd3ad986f77403051cba8f",
+                  "5e023e53d4353e3302577c4c",
+                  "5efb0c1bd79ff02a1f5e68d9",
+                  "5e023e6e34d52a55c3304f71",
+                  "5e023e88277cce2b522ff2b1",
+                  "6529243824cbe3c74a05e5c1",
+                  "6529302b8c26af6326029fb7"
+						]
+					  }
+					]
+				  },
+				  "_proto": "5748538b2459770af276a261"
+				}
+			  ]
+		},
+		"locales": {
+			"en": {
+				"name": "Magpul D50 7.62 Drum",
+				"shortName": "D50",
+				"description": "The Magpul PMAG D-50 is a rugged, lightweight, and reliable 50-round polymer drum magazine designed for 7.62x51 NATO/.308 Winchester ammunition for SR25/M110 pattern rifles. It’s capable of using longer-than-SAAMI-spec match ammunition, up to 2.830” OAL, such as M118LR. Engineered to the same exacting standards as the famous Magpul PMAG and PMAG D-60® drum magazines, the D-50 continues the PMAG tradition of high-capacity performance and dependability.  In addition, the D-50 brings GEN M3 features, which means enhanced strength, durability, and reliability."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_magazine"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 21000,
+		"handbookPriceRoubles": 21615,
+		"addtoTraders": true,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 70
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 280,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M870",
+				"Templates": [
+					"SerbuShotgun"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	}
+	
+}
