@@ -11,7 +11,7 @@
   ],
   "factory": [
     {
-      "BossChance": 5,
+      "BossChance": 35,
       "BossEscortAmount": "2,2,2,2,3",
       "BossEscortType": "pmcbot",
       "BossName": "pmcbot",
@@ -30,6 +30,16 @@
     }
   ],
   "groundzero": [
+    {
+      "BossChance": 35,
+      "BossEscortAmount": "2,2,2,2,3",
+      "BossEscortType": "pmcbot",
+      "BossName": "pmcbot",
+      "BossZone": null,
+      "Time": -1
+    }
+  ],
+  "groundzero_high": [
     {
       "BossChance": 35,
       "BossEscortAmount": "2,2,2,2,3",

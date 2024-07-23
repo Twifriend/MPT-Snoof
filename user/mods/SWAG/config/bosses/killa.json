@@ -39,9 +39,19 @@
       "Time": -1
     }
   ],
+  "groundzero_high": [
+    {
+      "BossChance": 30,
+      "BossEscortAmount": "0",
+      "BossEscortType": "followertagilla",
+      "BossName": "bosskilla",
+      "BossZone": null,
+      "Time": -1
+    }
+  ],
   "interchange": [
     {
-      "BossChance": 35,
+      "BossChance": 30,
       "BossEscortAmount": "0",
       "BossEscortType": "followertagilla",
       "BossName": "bosskilla",

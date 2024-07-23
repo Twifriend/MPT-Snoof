@@ -2,7 +2,7 @@
   "customs": [
     {
       "BossName": "bossknight",
-      "BossChance": 25,
+      "BossChance": 15,
       "Time": -1,
       "BossEscortAmount": "2",
       "BossEscortType": "exusec",
@@ -42,6 +42,26 @@
     }
   ],
   "factory_night": [
+    {
+      "BossName": "bossknight",
+      "BossChance": 15,
+      "Time": -1,
+      "BossEscortAmount": "2",
+      "BossEscortType": "exusec",
+      "Supports": [
+        {
+          "BossEscortAmount": "1",
+          "BossEscortType": "followerbigpipe"
+        },
+        {
+          "BossEscortAmount": "1",
+          "BossEscortType": "followerbirdeye"
+        }
+      ],
+      "BossZone": null
+    }
+  ],
+  "groundzero_high": [
     {
       "BossName": "bossknight",
       "BossChance": 15,
@@ -124,7 +144,7 @@
   "lighthouse": [
     {
       "BossName": "bossknight",
-      "BossChance": 50,
+      "BossChance": 15,
       "Time": -1,
       "BossEscortAmount": "2",
       "BossEscortType": "exusec",
@@ -167,7 +187,7 @@
   "shoreline": [
     {
       "BossName": "bossknight",
-      "BossChance": 25,
+      "BossChance": 5,
       "Time": -1,
       "BossEscortAmount": "2",
       "BossEscortType": "exusec",
@@ -209,7 +229,7 @@
   "woods": [
     {
       "BossName": "bossknight",
-      "BossChance": 25,
+      "BossChance": 20,
       "Time": -1,
       "BossEscortAmount": "2",
       "BossEscortType": "exusec",

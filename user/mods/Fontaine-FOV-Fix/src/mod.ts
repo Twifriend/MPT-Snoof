@@ -1,8 +1,8 @@
 import { DependencyContainer } from "tsyringe";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
-import { IPostDBLoadMod } from "@spt-aki/models/external/IPostDBLoadMod";
-import { PreSptModLoader } from "@spt-aki/loaders/PreSptModLoader";
+import { ILogger } from "@spt/models/spt/utils/ILogger";
+import { DatabaseServer } from "@spt/servers/DatabaseServer";
+import { IPostDBLoadMod } from "@spt/models/external/IPostDBLoadMod";
+import { PreSptModLoader } from "@spt/loaders/PreSptModLoader";
 
 const scopeTemplates = require("../db/ScopeTemplates.json");
 const config = require("../config/config.json");
