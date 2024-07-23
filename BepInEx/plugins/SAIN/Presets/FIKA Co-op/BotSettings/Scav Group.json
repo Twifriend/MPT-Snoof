@@ -6,12 +6,12 @@
     "easy": {
       "Core": {
         "VisibleAngle": 170.0,
-        "VisibleDistance": 120.0,
+        "VisibleDistance": 150.0,
         "GainSightCoef": 0.2,
         "AccuratySpeed": 0.3,
         "ScatteringPerMeter": 0.05,
         "ScatteringClosePerMeter": 0.12,
-        "HearingSense": 1.85,
+        "HearingDistanceMulti": 1.0,
         "CanGrenade": true
       },
       "Aiming": {
@@ -40,12 +40,11 @@
       "Grenade": {
         "CanThrowWhileSprinting": false,
         "ThrowAtVisibleEnemies": false,
-        "TimeSinceSeenBeforeThrow": 3.0,
-        "ThrowGrenadeFrequency": 8.0,
+        "TimeSinceSeenBeforeThrow": 4.0,
+        "ThrowGrenadeFrequency": 7.0,
+        "ThrowGrenadeFrequency_MAX": 12.0,
         "MinFriendlyDistance": 8.0,
-        "MinEnemyDistance": 8.0,
-        "GrenadePrecision": 0.2,
-        "MIN_THROW_DIST_PERCENT_0_1": 0.6
+        "MinEnemyDistance": 8.0
       },
       "Hearing": {},
       "Lay": {},
@@ -61,7 +60,7 @@
         "VISIBLE_DISNACE_WITH_IR_LIGHT": 65.0
       },
       "Mind": {
-        "Aggression": 0.8,
+        "Aggression": 0.7,
         "WeaponProficiency": 0.5,
         "TalkFrequency": 1.0,
         "CanTalk": true,
@@ -86,19 +85,19 @@
         "FireratMulti": 1.5,
         "MaxPointFireDistance": 150.0,
         "AUTOMATIC_FIRE_SCATTERING_COEF": 1.5,
-        "BASE_AUTOMATIC_TIME": 0.1,
+        "BASE_AUTOMATIC_TIME": 0.2,
         "RECOIL_DELTA_PRESS": 0.0
       }
     },
     "normal": {
       "Core": {
         "VisibleAngle": 170.0,
-        "VisibleDistance": 120.0,
+        "VisibleDistance": 150.0,
         "GainSightCoef": 0.2,
         "AccuratySpeed": 0.3,
         "ScatteringPerMeter": 0.05,
         "ScatteringClosePerMeter": 0.12,
-        "HearingSense": 1.85,
+        "HearingDistanceMulti": 1.0,
         "CanGrenade": true
       },
       "Aiming": {
@@ -127,12 +126,11 @@
       "Grenade": {
         "CanThrowWhileSprinting": false,
         "ThrowAtVisibleEnemies": false,
-        "TimeSinceSeenBeforeThrow": 3.0,
-        "ThrowGrenadeFrequency": 8.0,
+        "TimeSinceSeenBeforeThrow": 4.0,
+        "ThrowGrenadeFrequency": 7.0,
+        "ThrowGrenadeFrequency_MAX": 12.0,
         "MinFriendlyDistance": 8.0,
-        "MinEnemyDistance": 8.0,
-        "GrenadePrecision": 0.2,
-        "MIN_THROW_DIST_PERCENT_0_1": 0.6
+        "MinEnemyDistance": 8.0
       },
       "Hearing": {},
       "Lay": {},
@@ -148,7 +146,7 @@
         "VISIBLE_DISNACE_WITH_IR_LIGHT": 65.0
       },
       "Mind": {
-        "Aggression": 0.8,
+        "Aggression": 0.7,
         "WeaponProficiency": 0.5,
         "TalkFrequency": 1.0,
         "CanTalk": true,
@@ -173,19 +171,19 @@
         "FireratMulti": 1.5,
         "MaxPointFireDistance": 150.0,
         "AUTOMATIC_FIRE_SCATTERING_COEF": 1.5,
-        "BASE_AUTOMATIC_TIME": 0.1,
+        "BASE_AUTOMATIC_TIME": 0.2,
         "RECOIL_DELTA_PRESS": 0.0
       }
     },
     "hard": {
       "Core": {
         "VisibleAngle": 170.0,
-        "VisibleDistance": 120.0,
+        "VisibleDistance": 150.0,
         "GainSightCoef": 0.2,
         "AccuratySpeed": 0.3,
         "ScatteringPerMeter": 0.05,
         "ScatteringClosePerMeter": 0.12,
-        "HearingSense": 1.85,
+        "HearingDistanceMulti": 1.0,
         "CanGrenade": true
       },
       "Aiming": {
@@ -214,12 +212,11 @@
       "Grenade": {
         "CanThrowWhileSprinting": false,
         "ThrowAtVisibleEnemies": false,
-        "TimeSinceSeenBeforeThrow": 3.0,
-        "ThrowGrenadeFrequency": 8.0,
+        "TimeSinceSeenBeforeThrow": 4.0,
+        "ThrowGrenadeFrequency": 7.0,
+        "ThrowGrenadeFrequency_MAX": 12.0,
         "MinFriendlyDistance": 8.0,
-        "MinEnemyDistance": 8.0,
-        "GrenadePrecision": 0.2,
-        "MIN_THROW_DIST_PERCENT_0_1": 0.6
+        "MinEnemyDistance": 8.0
       },
       "Hearing": {},
       "Lay": {},
@@ -260,19 +257,19 @@
         "FireratMulti": 1.5,
         "MaxPointFireDistance": 150.0,
         "AUTOMATIC_FIRE_SCATTERING_COEF": 1.5,
-        "BASE_AUTOMATIC_TIME": 0.1,
+        "BASE_AUTOMATIC_TIME": 0.2,
         "RECOIL_DELTA_PRESS": 0.0
       }
     },
     "impossible": {
       "Core": {
         "VisibleAngle": 170.0,
-        "VisibleDistance": 120.0,
+        "VisibleDistance": 150.0,
         "GainSightCoef": 0.2,
         "AccuratySpeed": 0.3,
         "ScatteringPerMeter": 0.05,
         "ScatteringClosePerMeter": 0.12,
-        "HearingSense": 1.85,
+        "HearingDistanceMulti": 1.0,
         "CanGrenade": true
       },
       "Aiming": {
@@ -301,12 +298,11 @@
       "Grenade": {
         "CanThrowWhileSprinting": false,
         "ThrowAtVisibleEnemies": false,
-        "TimeSinceSeenBeforeThrow": 3.0,
-        "ThrowGrenadeFrequency": 8.0,
+        "TimeSinceSeenBeforeThrow": 4.0,
+        "ThrowGrenadeFrequency": 7.0,
+        "ThrowGrenadeFrequency_MAX": 12.0,
         "MinFriendlyDistance": 8.0,
-        "MinEnemyDistance": 8.0,
-        "GrenadePrecision": 0.2,
-        "MIN_THROW_DIST_PERCENT_0_1": 0.6
+        "MinEnemyDistance": 8.0
       },
       "Hearing": {},
       "Lay": {},
@@ -322,7 +318,7 @@
         "VISIBLE_DISNACE_WITH_IR_LIGHT": 65.0
       },
       "Mind": {
-        "Aggression": 0.9,
+        "Aggression": 0.8,
         "WeaponProficiency": 0.5,
         "TalkFrequency": 1.0,
         "CanTalk": true,
@@ -347,7 +343,7 @@
         "FireratMulti": 1.5,
         "MaxPointFireDistance": 150.0,
         "AUTOMATIC_FIRE_SCATTERING_COEF": 1.5,
-        "BASE_AUTOMATIC_TIME": 0.1,
+        "BASE_AUTOMATIC_TIME": 0.2,
         "RECOIL_DELTA_PRESS": 0.0
       }
     }

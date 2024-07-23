@@ -1,10 +1,10 @@
 {
   "Name": "FIKA CO-OP",
-  "Description": "AI are harder and PMCs are very aggressive",
+  "Description": "Increased difficulty of AI and PMCs are deadly",
   "Creator": "Twigga",
-  "SAINVersion": "3.0.5",
-  "SAINPresetVersion": "3.0.5",
-  "DateCreated": "07/15/2024 00:00:00",
+  "SAINVersion": "3.0.7",
+  "SAINPresetVersion": "3.0.7",
+  "DateCreated": "07/22/2024 00:00:00",
   "BaseSAINDifficulty": "veryhard",
   "IsCustom": true,
   "CanEditName": true

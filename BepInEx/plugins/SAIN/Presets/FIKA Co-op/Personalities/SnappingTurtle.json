@@ -48,7 +48,7 @@
       "CanJumpCorners": true,
       "JumpCornerChance": 100.0,
       "CanBunnyHop": true,
-      "BunnyHopChance": 20.0
+      "BunnyHopChance": 25.0
     },
     "Cover": {
       "CanShiftCoverPosition": true,
@@ -73,6 +73,6 @@
   },
   "StatModifiers": {
     "ScatterMultiplier": 1.0,
-    "VisionSpeedMultiplier": 0.95
+    "VisionSpeedMultiplier": 1.0
   }
 }

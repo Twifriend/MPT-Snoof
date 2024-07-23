@@ -1,0 +1,62 @@
+{
+    "=== If you want to disable any multiplication use value 1 ===": "< Description",
+    "experience": {
+        "=== Multiplies the experience of the daily & weekly tasks ===": "< Description",
+        "dailyWeeklyMultiplier": 1.5,
+        "=== Multiplies the experience of quests ===": "< Description",
+        "questMultiplier": 1.5,
+        "=== Multiplies the experience of examination on items ===": "< Description",
+        "examineMultiplier": 1,
+        "=== Multiplies the experience of raid exit statuses (survived_exp_reward and mia_exp_reward and runner_exp_reward) ===": "< Description",
+        "raidExitMultiplier": 1,
+        "=== Multiplies the skill progression rate ===": "< Description",
+        "skillMultiplier": 1,
+        "=== Multiplies the weapon skill progression rate ===": "< Description",
+        "weaponSkillMultiplier": 1.5,
+        "=== Multiplies the experience of the kills ===": "< Description",
+        "killMultiplier": 1
+    },
+    "loot": {
+        "=== Multiplies the static loot rate ===": "< Description",
+        "staticLootMultiplier": 1,
+        "=== Multiplies the loose loot rate ===": "< Description",
+        "looseLootMultiplier": 1
+    },
+    "money": {
+        "=== Multiplies the rouble rewards of the daily & weekly tasks ===": "< Description",
+        "dailyWeeklyMultiplier": 1
+    },
+    "reputation": {
+        "=== Multiplies the reputation gain of the daily & weekly tasks ===": "< Description",
+        "dailyWeeklyMultiplier": 1.5,
+        "=== Multiplies the reputation gain for fence in car extracts ===": "< Description",
+        "carExtractMultiplier": 1,
+        "=== Multiplies the reputation gain when extracting as a scav ===": "< Description",
+        "scavExtractMultiplier": 1,
+        "=== Multiplies the reputation gain of the quests ===": "< Description",
+        "questMultiplier": 1.5
+    },
+    "flea": {
+        "=== Multiplies the offer count the user can put in flea market ===": "< Description",
+        "offerCountMultiplier": 1
+    },
+    "stamina": {
+        "=== Multiplies the stamina capacity ===": "< Description",
+        "capacityMultiplier": 1.09
+    },
+    "ammo": {
+        "=== Multiplies speed of magazine loading ===": "< Description",
+        "magazineLoadSpeedMultiplier": 1.4,
+        "=== Multiplies speed of magazine unloading ===": "< Description",
+        "magazineUnloadSpeedMultiplier": 1.3
+    },
+    "hideout": {
+        "=== Multiplies the stash sizes of each level (Defaults are: 10x28, 10x38, 10x48, 10x68) ===": "< Description",
+        "=== DO NOT LOWER THIS VALUE (stashMultiplier) IF YOU HAVE ITEMS IN THE MULTIPLIED PART OF THE STASH ===": "< WARNING",
+        "stashMultiplier": 1,
+        "=== Multiplies the production speed of each craft ===": "< Description",
+        "productionSpeedMultiplier": 80,
+        "=== Multiplies the fuel usage rate to compensate faster crafts ===": "< Description",
+        "fuelUsageMultiplier": 2
+    }
+}

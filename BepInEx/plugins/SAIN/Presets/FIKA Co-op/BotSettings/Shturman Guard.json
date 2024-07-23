@@ -11,7 +11,7 @@
         "AccuratySpeed": 0.2,
         "ScatteringPerMeter": 0.045,
         "ScatteringClosePerMeter": 0.12,
-        "HearingSense": 3.9,
+        "HearingDistanceMulti": 1.0,
         "CanGrenade": true
       },
       "Aiming": {
@@ -40,12 +40,11 @@
       "Grenade": {
         "CanThrowWhileSprinting": false,
         "ThrowAtVisibleEnemies": false,
-        "TimeSinceSeenBeforeThrow": 3.0,
-        "ThrowGrenadeFrequency": 8.0,
+        "TimeSinceSeenBeforeThrow": 4.0,
+        "ThrowGrenadeFrequency": 5.0,
+        "ThrowGrenadeFrequency_MAX": 10.0,
         "MinFriendlyDistance": 8.0,
-        "MinEnemyDistance": 8.0,
-        "GrenadePrecision": 0.05,
-        "MIN_THROW_DIST_PERCENT_0_1": 0.6
+        "MinEnemyDistance": 8.0
       },
       "Hearing": {},
       "Lay": {},
@@ -98,7 +97,7 @@
         "AccuratySpeed": 0.2,
         "ScatteringPerMeter": 0.045,
         "ScatteringClosePerMeter": 0.12,
-        "HearingSense": 3.9,
+        "HearingDistanceMulti": 1.0,
         "CanGrenade": true
       },
       "Aiming": {
@@ -127,12 +126,11 @@
       "Grenade": {
         "CanThrowWhileSprinting": false,
         "ThrowAtVisibleEnemies": false,
-        "TimeSinceSeenBeforeThrow": 3.0,
-        "ThrowGrenadeFrequency": 8.0,
+        "TimeSinceSeenBeforeThrow": 4.0,
+        "ThrowGrenadeFrequency": 5.0,
+        "ThrowGrenadeFrequency_MAX": 10.0,
         "MinFriendlyDistance": 8.0,
-        "MinEnemyDistance": 8.0,
-        "GrenadePrecision": 0.05,
-        "MIN_THROW_DIST_PERCENT_0_1": 0.6
+        "MinEnemyDistance": 8.0
       },
       "Hearing": {},
       "Lay": {},
@@ -185,7 +183,7 @@
         "AccuratySpeed": 0.2,
         "ScatteringPerMeter": 0.045,
         "ScatteringClosePerMeter": 0.12,
-        "HearingSense": 3.9,
+        "HearingDistanceMulti": 1.0,
         "CanGrenade": true
       },
       "Aiming": {
@@ -214,12 +212,11 @@
       "Grenade": {
         "CanThrowWhileSprinting": false,
         "ThrowAtVisibleEnemies": false,
-        "TimeSinceSeenBeforeThrow": 3.0,
-        "ThrowGrenadeFrequency": 8.0,
+        "TimeSinceSeenBeforeThrow": 4.0,
+        "ThrowGrenadeFrequency": 5.0,
+        "ThrowGrenadeFrequency_MAX": 10.0,
         "MinFriendlyDistance": 8.0,
-        "MinEnemyDistance": 8.0,
-        "GrenadePrecision": 0.05,
-        "MIN_THROW_DIST_PERCENT_0_1": 0.6
+        "MinEnemyDistance": 8.0
       },
       "Hearing": {},
       "Lay": {},
@@ -272,7 +269,7 @@
         "AccuratySpeed": 0.2,
         "ScatteringPerMeter": 0.045,
         "ScatteringClosePerMeter": 0.12,
-        "HearingSense": 3.9,
+        "HearingDistanceMulti": 1.0,
         "CanGrenade": true
       },
       "Aiming": {
@@ -301,12 +298,11 @@
       "Grenade": {
         "CanThrowWhileSprinting": false,
         "ThrowAtVisibleEnemies": false,
-        "TimeSinceSeenBeforeThrow": 3.0,
-        "ThrowGrenadeFrequency": 8.0,
+        "TimeSinceSeenBeforeThrow": 4.0,
+        "ThrowGrenadeFrequency": 5.0,
+        "ThrowGrenadeFrequency_MAX": 10.0,
         "MinFriendlyDistance": 8.0,
-        "MinEnemyDistance": 8.0,
-        "GrenadePrecision": 0.05,
-        "MIN_THROW_DIST_PERCENT_0_1": 0.6
+        "MinEnemyDistance": 8.0
       },
       "Hearing": {},
       "Lay": {},

@@ -52,7 +52,7 @@
   },
   "Behavior": {
     "General": {
-      "AggressionMultiplier": 1.25,
+      "AggressionMultiplier": 1.1,
       "KickOpenAllDoors": false,
       "HoldGroundBaseTime": 1.0,
       "HoldGroundMinRandom": 0.5,
@@ -78,9 +78,9 @@
     "Rush": {
       "CanRushEnemyReloadHeal": true,
       "CanJumpCorners": true,
-      "JumpCornerChance": 15.0,
-      "CanBunnyHop": true,
-      "BunnyHopChance": 1.0
+      "JumpCornerChance": 20.0,
+      "CanBunnyHop": false,
+      "BunnyHopChance": 5.0
     },
     "Cover": {
       "CanShiftCoverPosition": true,
@@ -104,7 +104,7 @@
     }
   },
   "StatModifiers": {
-    "ScatterMultiplier": 0.95,
-    "VisionSpeedMultiplier": 0.95
+    "ScatterMultiplier": 1.0,
+    "VisionSpeedMultiplier": 1.0
   }
 }

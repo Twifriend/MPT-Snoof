@@ -50,7 +50,7 @@
   },
   "Behavior": {
     "General": {
-      "AggressionMultiplier": 1.0,
+      "AggressionMultiplier": 0.95,
       "KickOpenAllDoors": false,
       "HoldGroundBaseTime": 0.2,
       "HoldGroundMinRandom": 0.75,
@@ -102,7 +102,7 @@
     }
   },
   "StatModifiers": {
-    "ScatterMultiplier": 1.0,
-    "VisionSpeedMultiplier": 1.0
+    "ScatterMultiplier": 1.05,
+    "VisionSpeedMultiplier": 1.05
   }
 }
