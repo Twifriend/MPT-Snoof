@@ -7,37 +7,40 @@
           "TriggerTimer": 300,
           "TriggerDistance": 800,
           "SpawnChance": 55,
-          "MaxTriggersBeforeCooldown": 3,
-          "IgnoreTimerFirstSpawn": false,
-          "MinGroupSize": 1,
-          "MaxGroupSize": 5,
-          "Zones": [
-            "all"
-          ]
-        },
-        {
-          "GroupNum": 2,
-          "TriggerTimer": 370,
-          "TriggerDistance": 800,
-          "SpawnChance": 55,
-          "MaxTriggersBeforeCooldown": 4,
-          "IgnoreTimerFirstSpawn": false,
-          "MinGroupSize": 1,
-          "MaxGroupSize": 5,
-          "Zones": [
-            "hotspot"
-          ]
-        },
-        {
-          "GroupNum": 3,
-          "TriggerTimer": 420,
-          "TriggerDistance": 800,
-          "SpawnChance": 55,
           "MaxTriggersBeforeCooldown": 5,
           "IgnoreTimerFirstSpawn": false,
           "MinGroupSize": 1,
           "MaxGroupSize": 5,
           "Zones": [
+            "start",
+            "all"
+          ]
+        },
+        {
+          "GroupNum": 2,
+          "TriggerTimer": 90,
+          "TriggerDistance": 800,
+          "SpawnChance": 55,
+          "MaxTriggersBeforeCooldown": 6,
+          "IgnoreTimerFirstSpawn": false,
+          "MinGroupSize": 1,
+          "MaxGroupSize": 5,
+          "Zones": [
+            "start",
+            "all"
+          ]
+        },
+        {
+          "GroupNum": 3,
+          "TriggerTimer": 350,
+          "TriggerDistance": 800,
+          "SpawnChance": 55,
+          "MaxTriggersBeforeCooldown": 8,
+          "IgnoreTimerFirstSpawn": false,
+          "MinGroupSize": 1,
+          "MaxGroupSize": 5,
+          "Zones": [
+            "start",
             "all"
           ]
         }
@@ -45,40 +48,43 @@
       "SCAV": [
         {
           "GroupNum": 50,
-          "TriggerTimer": 120,
+          "TriggerTimer": 100,
           "TriggerDistance": 800,
-          "SpawnChance": 75,
-          "MaxTriggersBeforeCooldown": 5,
+          "SpawnChance": 80,
+          "MaxTriggersBeforeCooldown": 6,
           "IgnoreTimerFirstSpawn": false,
           "MinGroupSize": 1,
           "MaxGroupSize": 3,
           "Zones": [
+            "start",
             "all"
           ]
         },
         {
           "GroupNum": 51,
-          "TriggerTimer": 170,
+          "TriggerTimer": 160,
           "TriggerDistance": 800,
-          "SpawnChance": 75,
+          "SpawnChance": 80,
           "MaxTriggersBeforeCooldown": 7,
           "IgnoreTimerFirstSpawn": false,
           "MinGroupSize": 1,
           "MaxGroupSize": 3,
           "Zones": [
+            "start",
             "all"
           ]
         },
         {
           "GroupNum": 52,
-          "TriggerTimer": 240,
+          "TriggerTimer": 210,
           "TriggerDistance": 800,
-          "SpawnChance": 75,
+          "SpawnChance": 80,
           "MaxTriggersBeforeCooldown": 9,
           "IgnoreTimerFirstSpawn": false,
           "MinGroupSize": 1,
           "MaxGroupSize": 3,
           "Zones": [
+            "start",
             "all"
           ]
         },
@@ -86,40 +92,42 @@
           "GroupNum": 53,
           "TriggerTimer": 280,
           "TriggerDistance": 800,
-          "SpawnChance": 75,
+          "SpawnChance": 80,
+          "MaxTriggersBeforeCooldown": 10,
+          "IgnoreTimerFirstSpawn": false,
+          "MinGroupSize": 1,
+          "MaxGroupSize": 3,
+          "Zones": [
+            "start",
+            "all"
+          ]
+        },
+        {
+          "GroupNum": 54,
+          "TriggerTimer": 90,
+          "TriggerDistance": 800,
+          "SpawnChance": 80,
           "MaxTriggersBeforeCooldown": 11,
           "IgnoreTimerFirstSpawn": false,
           "MinGroupSize": 1,
           "MaxGroupSize": 3,
           "Zones": [
-            "Zone_Black",
-            "Zone_Yellow",
-            "Zone_Blue_North"
-          ]
-        },
-        {
-          "GroupNum": 54,
-          "TriggerTimer": 330,
-          "TriggerDistance": 800,
-          "SpawnChance": 75,
-          "MaxTriggersBeforeCooldown": 12,
-          "IgnoreTimerFirstSpawn": false,
-          "MinGroupSize": 1,
-          "MaxGroupSize": 3,
-          "Zones": [
-            "hotspot"
+            "hotspot",
+            "start",
+            "all"
           ]
         },
         {
           "GroupNum": 55,
-          "TriggerTimer": 380,
+          "TriggerTimer": 340,
           "TriggerDistance": 800,
-          "SpawnChance": 75,
-          "MaxTriggersBeforeCooldown": 14,
+          "SpawnChance": 80,
+          "MaxTriggersBeforeCooldown": 13,
           "IgnoreTimerFirstSpawn": false,
           "MinGroupSize": 1,
           "MaxGroupSize": 3,
           "Zones": [
+            "start",
             "all"
           ]
         }

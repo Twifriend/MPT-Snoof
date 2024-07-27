@@ -2,21 +2,23 @@
   "Maps": {
     "woods": {
       "PMC": {
-        "MinCount": 8,
-        "MaxCount": 12,
+        "MinCount": 6,
+        "MaxCount": 10,
         "MinGroupSize": 1,
         "MaxGroupSize": 5,
         "Zones": [
-          "start"
+          "start",
+            "all"
         ]
       },
       "SCAV": {
-        "MinCount": 3,
-        "MaxCount": 5,
+        "MinCount": 0,
+        "MaxCount": 3,
         "MinGroupSize": 1,
         "MaxGroupSize": 2,
         "Zones": [
-          "all"
+          "start",
+            "all"
         ]
       }
     }

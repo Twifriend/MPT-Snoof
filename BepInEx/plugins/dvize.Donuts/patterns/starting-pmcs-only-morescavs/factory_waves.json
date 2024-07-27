@@ -13,6 +13,7 @@
           "MinGroupSize": 1,
           "MaxGroupSize": 2,
           "Zones": [
+            "start",
             "all"
           ]
         },
@@ -26,6 +27,7 @@
           "MinGroupSize": 1,
           "MaxGroupSize": 2,
           "Zones": [
+            "start",
             "all"
           ]
         },
@@ -39,6 +41,7 @@
           "MinGroupSize": 1,
           "MaxGroupSize": 2,
           "Zones": [
+            "start",
             "all"
           ]
         },
@@ -52,6 +55,7 @@
           "MinGroupSize": 1,
           "MaxGroupSize": 3,
           "Zones": [
+            "start",
             "all"
           ]
         }
