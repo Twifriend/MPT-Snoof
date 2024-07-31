@@ -47,6 +47,19 @@
 		{
 			"key": "assets/content/items/mods/sights rear/sight_rear_ak_sag_mk3_chassis_rear_sight.bundle",
 			"dependencyKeys": []
+		},
+		{
+			"key": "assets/content/items/mods/sights rear/sight_rear_ak_izhmash_rpk16_rear_sight_std.bundle",
+			"dependencyKeys": []
+		},
+		{
+			"key": "assets/content/items/mods/sights rear/sight_rear_ar15_colt_a2.bundle",
+			"dependencyKeys": []
+		},
+		{
+			"key": "assets/content/items/mods/sights rear/sight_rear_ar15_colt_carry_hande_std.bundle",
+			"dependencyKeys": []
 		}
+		
 	]
 }
