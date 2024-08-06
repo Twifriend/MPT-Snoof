@@ -78,7 +78,7 @@
     "Rush": {
       "CanRushEnemyReloadHeal": true,
       "CanJumpCorners": true,
-      "JumpCornerChance": 20.0,
+      "JumpCornerChance": 24.8936214,
       "CanBunnyHop": false,
       "BunnyHopChance": 5.0
     },
@@ -98,13 +98,18 @@
       "TauntFrequency": 10.0,
       "TauntChance": 50.0,
       "TauntMaxDistance": 50.0,
-      "CanFakeDeathRare": false,
+      "CanFakeDeathRare": true,
       "FakeDeathChance": 2.0,
       "CanBegForLife": false
     }
   },
-  "StatModifiers": {
-    "ScatterMultiplier": 1.0,
-    "VisionSpeedMultiplier": 1.0
+  "Difficulty": {
+    "VisibleDistCoef": 1.0,
+    "GainSightCoef": 1.0,
+    "ScatteringCoef": 1.0,
+    "HearingDistanceCoef": 1.0,
+    "AggressionCoef": 1.0,
+    "PrecisionSpeedCoef": 1.0,
+    "AccuracySpeedCoef": 1.0
   }
 }

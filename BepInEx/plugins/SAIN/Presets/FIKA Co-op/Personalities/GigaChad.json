@@ -34,7 +34,7 @@
       "AudioStraightDistanceToIgnore": 125.0,
       "SearchBaseTime": 6.0,
       "SearchWaitMultiplier": 3.0,
-      "SprintWhileSearchChance": 60.0,
+      "SprintWhileSearchChance": 75.0,
       "Sneaky": false,
       "SneakySpeed": 1.0,
       "SneakyPose": 1.0,
@@ -48,7 +48,7 @@
       "CanJumpCorners": true,
       "JumpCornerChance": 40.0,
       "CanBunnyHop": true,
-      "BunnyHopChance": 10.0
+      "BunnyHopChance": 15.0
     },
     "Cover": {
       "CanShiftCoverPosition": true,
@@ -67,12 +67,17 @@
       "TauntChance": 45.0,
       "TauntMaxDistance": 65.0,
       "CanFakeDeathRare": true,
-      "FakeDeathChance": 3.0,
+      "FakeDeathChance": 5.0,
       "CanBegForLife": false
     }
   },
-  "StatModifiers": {
-    "ScatterMultiplier": 0.9,
-    "VisionSpeedMultiplier": 0.9
+  "Difficulty": {
+    "VisibleDistCoef": 1.1,
+    "GainSightCoef": 0.9,
+    "ScatteringCoef": 0.9,
+    "HearingDistanceCoef": 1.2,
+    "AggressionCoef": 1.1,
+    "PrecisionSpeedCoef": 0.85,
+    "AccuracySpeedCoef": 0.85
   }
 }

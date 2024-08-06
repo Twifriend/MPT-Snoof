@@ -34,10 +34,10 @@
       "AudioStraightDistanceToIgnore": 125.0,
       "SearchBaseTime": 90.0,
       "SearchWaitMultiplier": 3.0,
-      "SprintWhileSearchChance": 0.0,
+      "SprintWhileSearchChance": 40.0,
       "Sneaky": true,
-      "SneakySpeed": 0.0,
-      "SneakyPose": 0.0,
+      "SneakySpeed": 0.33,
+      "SneakyPose": 1.0,
       "SearchNoEnemySpeed": 1.0,
       "SearchNoEnemyPose": 1.0,
       "SearchHasEnemySpeed": 1.0,
@@ -46,7 +46,7 @@
     "Rush": {
       "CanRushEnemyReloadHeal": true,
       "CanJumpCorners": true,
-      "JumpCornerChance": 100.0,
+      "JumpCornerChance": 75.0,
       "CanBunnyHop": true,
       "BunnyHopChance": 25.0
     },
@@ -71,8 +71,13 @@
       "CanBegForLife": false
     }
   },
-  "StatModifiers": {
-    "ScatterMultiplier": 1.0,
-    "VisionSpeedMultiplier": 1.0
+  "Difficulty": {
+    "VisibleDistCoef": 1.0,
+    "GainSightCoef": 0.95,
+    "ScatteringCoef": 1.0,
+    "HearingDistanceCoef": 1.0,
+    "AggressionCoef": 1.0,
+    "PrecisionSpeedCoef": 0.95,
+    "AccuracySpeedCoef": 0.95
   }
 }

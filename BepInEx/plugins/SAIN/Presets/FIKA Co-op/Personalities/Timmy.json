@@ -64,7 +64,7 @@
       "AudioStraightDistanceToIgnore": 125.0,
       "SearchBaseTime": 90.0,
       "SearchWaitMultiplier": 0.5,
-      "SprintWhileSearchChance": 0.0,
+      "SprintWhileSearchChance": 20.0,
       "Sneaky": false,
       "SneakySpeed": 0.0,
       "SneakyPose": 0.0,
@@ -101,8 +101,13 @@
       "CanBegForLife": true
     }
   },
-  "StatModifiers": {
-    "ScatterMultiplier": 1.1,
-    "VisionSpeedMultiplier": 1.1
+  "Difficulty": {
+    "VisibleDistCoef": 0.95,
+    "GainSightCoef": 1.05,
+    "ScatteringCoef": 1.05,
+    "HearingDistanceCoef": 0.95,
+    "AggressionCoef": 1.0,
+    "PrecisionSpeedCoef": 1.1,
+    "AccuracySpeedCoef": 1.1
   }
 }

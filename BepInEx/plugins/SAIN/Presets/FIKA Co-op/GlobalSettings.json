@@ -1,4 +1,13 @@
 {
+  "Difficulty": {
+    "VisibleDistCoef": 1.33,
+    "GainSightCoef": 0.8,
+    "ScatteringCoef": 0.85,
+    "HearingDistanceCoef": 1.0,
+    "AggressionCoef": 1.0,
+    "PrecisionSpeedCoef": 0.8,
+    "AccuracySpeedCoef": 0.8
+  },
   "General": {
     "BotsUseGrenades": true,
     "BotWeightEffects": true,
@@ -64,9 +73,9 @@
       "TurnLightOffNoEnemyPMC": true,
       "TurnLightOffNoEnemySCAV": false,
       "TurnLightOffNoEnemyGOONS": true,
-      "TurnLightOffNoEnemyBOSS": true,
-      "TurnLightOffNoEnemyFOLLOWER": true,
-      "TurnLightOffNoEnemyRAIDERROGUE": true,
+      "TurnLightOffNoEnemyBOSS": false,
+      "TurnLightOffNoEnemyFOLLOWER": false,
+      "TurnLightOffNoEnemyRAIDERROGUE": false,
       "DebugFlash": false,
       "SillyMode": false
     },
@@ -127,6 +136,17 @@
   },
   "Aiming": {
     "AimCenterMassGlobal": false,
+    "HitEffects": {
+      "HIT_REACTION_TOGGLE": true,
+      "DAMAGE_MANUAL_MODIFIER": 1.0,
+      "USE_HIT_POINT_DIRECTION": true,
+      "HIT_POINT_DIRECTION_BASE_DISTANCE": 0.5,
+      "DAMAGE_BASE_MIN_ANGLE": 7.0,
+      "DAMAGE_BASE_MAX_ANGLE": 10.0,
+      "DAMAGE_RECEIVED_BASELINE": 50.0,
+      "DAMAGE_MIN_MOD": 0.2,
+      "DAMAGE_MAX_MOD": 3.0
+    },
     "AimDownSightsAimTimeMultiplier": 0.8,
     "EnemyVelocityMaxBuff": 1.2,
     "EnemyVelocityMaxDebuff": 0.8,
@@ -148,7 +168,7 @@
     "CenterMassVal": 0.3125,
     "FasterCQBReactionsGlobal": true,
     "PMCSAimForHead": false,
-    "PMCAimForHeadChance": 33.0
+    "PMCAimForHeadChance": 25.0
   },
   "Hearing": {
     "MaxFootstepAudioDistance": 70.0,
@@ -203,67 +223,110 @@
     }
   },
   "Location": {
-    "Settings": {
+    "LocationSettings": {
       "Factory": {
-        "VisionSpeedModifier": 1.0,
-        "ScatterMultiplier": 1.0,
-        "AggressionMultiplier": 1.0
+        "VisibleDistCoef": 1.0,
+        "GainSightCoef": 1.0,
+        "ScatteringCoef": 1.0,
+        "HearingDistanceCoef": 1.0,
+        "AggressionCoef": 1.0,
+        "PrecisionSpeedCoef": 1.0,
+        "AccuracySpeedCoef": 1.0
       },
       "FactoryNight": {
-        "VisionSpeedModifier": 1.0,
-        "ScatterMultiplier": 1.0,
-        "AggressionMultiplier": 1.0
+        "VisibleDistCoef": 1.0,
+        "GainSightCoef": 1.0,
+        "ScatteringCoef": 1.0,
+        "HearingDistanceCoef": 1.0,
+        "AggressionCoef": 1.0,
+        "PrecisionSpeedCoef": 1.0,
+        "AccuracySpeedCoef": 1.0
       },
       "Customs": {
-        "VisionSpeedModifier": 1.0,
-        "ScatterMultiplier": 1.0,
-        "AggressionMultiplier": 1.0
+        "VisibleDistCoef": 1.0,
+        "GainSightCoef": 1.0,
+        "ScatteringCoef": 1.0,
+        "HearingDistanceCoef": 1.0,
+        "AggressionCoef": 1.05,
+        "PrecisionSpeedCoef": 1.0,
+        "AccuracySpeedCoef": 1.0
       },
       "GroundZero": {
-        "VisionSpeedModifier": 1.0,
-        "ScatterMultiplier": 1.0,
-        "AggressionMultiplier": 1.0
+        "VisibleDistCoef": 1.0,
+        "GainSightCoef": 1.0,
+        "ScatteringCoef": 1.0,
+        "HearingDistanceCoef": 1.0,
+        "AggressionCoef": 0.9,
+        "PrecisionSpeedCoef": 1.0,
+        "AccuracySpeedCoef": 1.0
       },
       "Reserve": {
-        "VisionSpeedModifier": 1.0,
-        "ScatterMultiplier": 1.0,
-        "AggressionMultiplier": 1.0
+        "VisibleDistCoef": 1.0,
+        "GainSightCoef": 1.0,
+        "ScatteringCoef": 1.0,
+        "HearingDistanceCoef": 1.0,
+        "AggressionCoef": 1.0,
+        "PrecisionSpeedCoef": 1.0,
+        "AccuracySpeedCoef": 1.0
       },
       "Streets": {
-        "VisionSpeedModifier": 1.0,
-        "ScatterMultiplier": 1.0,
-        "AggressionMultiplier": 1.0
+        "VisibleDistCoef": 1.0,
+        "GainSightCoef": 1.0,
+        "ScatteringCoef": 1.0,
+        "HearingDistanceCoef": 1.0,
+        "AggressionCoef": 1.0,
+        "PrecisionSpeedCoef": 1.0,
+        "AccuracySpeedCoef": 1.0
       },
       "Lighthouse": {
-        "VisionSpeedModifier": 1.0,
-        "ScatterMultiplier": 1.0,
-        "AggressionMultiplier": 1.0
+        "VisibleDistCoef": 1.0,
+        "GainSightCoef": 1.0,
+        "ScatteringCoef": 1.0,
+        "HearingDistanceCoef": 1.0,
+        "AggressionCoef": 1.0,
+        "PrecisionSpeedCoef": 1.0,
+        "AccuracySpeedCoef": 1.0
       },
       "Shoreline": {
-        "VisionSpeedModifier": 1.0,
-        "ScatterMultiplier": 1.0,
-        "AggressionMultiplier": 1.0
+        "VisibleDistCoef": 1.0,
+        "GainSightCoef": 1.0,
+        "ScatteringCoef": 1.0,
+        "HearingDistanceCoef": 1.0,
+        "AggressionCoef": 1.0,
+        "PrecisionSpeedCoef": 1.0,
+        "AccuracySpeedCoef": 1.0
       },
       "Labs": {
-        "VisionSpeedModifier": 1.0,
-        "ScatterMultiplier": 1.0,
-        "AggressionMultiplier": 1.0
+        "VisibleDistCoef": 1.0,
+        "GainSightCoef": 1.0,
+        "ScatteringCoef": 1.0,
+        "HearingDistanceCoef": 1.0,
+        "AggressionCoef": 1.1,
+        "PrecisionSpeedCoef": 1.0,
+        "AccuracySpeedCoef": 1.0
       },
       "Woods": {
-        "VisionSpeedModifier": 1.0,
-        "ScatterMultiplier": 1.0,
-        "AggressionMultiplier": 1.0
+        "VisibleDistCoef": 1.0,
+        "GainSightCoef": 1.0,
+        "ScatteringCoef": 1.0,
+        "HearingDistanceCoef": 1.0,
+        "AggressionCoef": 0.95,
+        "PrecisionSpeedCoef": 1.0,
+        "AccuracySpeedCoef": 1.0
       },
       "Interchange": {
-        "VisionSpeedModifier": 1.0,
-        "ScatterMultiplier": 1.0,
-        "AggressionMultiplier": 1.0
+        "VisibleDistCoef": 1.0,
+        "GainSightCoef": 1.0,
+        "ScatteringCoef": 1.0,
+        "HearingDistanceCoef": 1.0,
+        "AggressionCoef": 1.0,
+        "PrecisionSpeedCoef": 1.0,
+        "AccuracySpeedCoef": 1.0
       }
     }
   },
   "Look": {
     "VisionSpeed": {
-      "GlobalVisionSpeedModifier": 0.8,
       "Elevation": {
         "Enabled": true,
         "HighElevationMaxAngle": 60.0,
@@ -291,8 +354,8 @@
       "Pose": {
         "Description": "Scales vision speed based on the pose of their enemy. Only applies to Non-AI targets.",
         "Enabled": true,
-        "PRONE_VISION_SPEED_COEF": 1.5,
-        "DUCK_VISION_SPEED_COEF": 1.2
+        "PRONE_VISION_SPEED_COEF": 1.75,
+        "DUCK_VISION_SPEED_COEF": 1.25
       },
       "ThirdParty": {
         "Description": "When an enemy is a certain angle away from their active enemies last known position, this will reduce their vision speed of that target up to the maximum set amount.",
@@ -302,7 +365,6 @@
       }
     },
     "VisionDistance": {
-      "GlobalVisionDistanceMultiplier": 1.33,
       "MovementDistanceModifier": 1.5
     },
     "NotLooking": {
@@ -320,8 +382,8 @@
       "NoBushESPDebugMode": false
     },
     "Time": {
-      "NightTimeVisionModifier": 0.33,
-      "NightTimeVisionModifierSnow": 0.5,
+      "NightTimeVisionModifier": 0.2,
+      "NightTimeVisionModifierSnow": 0.35,
       "HourDawnStart": 6.0,
       "HourDawnEnd": 8.0,
       "HourDuskStart": 20.0,
@@ -347,7 +409,7 @@
     },
     "GlobalAggression": 1.55,
     "SneakyBots": true,
-    "OnlySneakyPersonalitiesSneaky": false,
+    "OnlySneakyPersonalitiesSneaky": true,
     "MaximumDistanceToBeSneaky": 80.0,
     "MaxSuppressionDistance": 10.0,
     "MaxUnderFireDistance": 2.0
@@ -375,11 +437,13 @@
     "SteerSpeed_MinSpeed": 125.0
   },
   "Shoot": {
-    "GlobalScatterMultiplier": 0.85,
     "RecoilMultiplier": 0.66,
     "AddRecoil": 5.0,
-    "RecoilDecayCoef": 1.0,
-    "RecoilRiseCoef": 8.0,
+    "RECOIL_DECAY_COEF": 0.2,
+    "RECOIL_BASELINE": 100.0,
+    "RECOIL_BASELINE_REALISM": 125.0,
+    "RECOIL_RANDOM_MIN": 0.8,
+    "RECOIL_RANDOM_MAX": 1.2,
     "AmmoCaliberShootability": {
       "Caliber9x18PM": 0.225,
       "Caliber9x19PARA": 0.275,
@@ -526,10 +590,10 @@
     "_underFireNeedHelpMask": "Combat",
     "_underFireNeedHelpGroupDelay": true,
     "_underFireNeedHelpFreq": 1.0,
-    "_hearNoiseChance": 40.0,
-    "_hearNoiseMaxDist": 60.0,
+    "_hearNoiseChance": 50.0,
+    "_hearNoiseMaxDist": 70.0,
     "_hearNoiseFreq": 30.0,
-    "_enemyLocationTalkChance": 60.0,
+    "_enemyLocationTalkChance": 70.0,
     "_enemyLocationTalkTimeSinceSeen": 3.0,
     "_enemyNeedHelpChance": 40.0,
     "_enemyLocationTalkFreq": 1.0,

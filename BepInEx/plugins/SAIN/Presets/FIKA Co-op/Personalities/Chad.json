@@ -5,7 +5,7 @@
     "Enabled": true,
     "CanBeRandomlyAssigned": true,
     "RandomlyAssignedChance": 8.0,
-    "MinLevel": 0.0,
+    "MinLevel": 5.0,
     "MaxLevel": 100.0,
     "PowerLevelScaleStart": 100.0,
     "PowerLevelScaleEnd": 400.0,
@@ -34,7 +34,7 @@
       "AudioStraightDistanceToIgnore": 125.0,
       "SearchBaseTime": 16.0,
       "SearchWaitMultiplier": 1.0,
-      "SprintWhileSearchChance": 30.0,
+      "SprintWhileSearchChance": 60.0,
       "Sneaky": false,
       "SneakySpeed": 0.0,
       "SneakyPose": 0.0,
@@ -46,9 +46,9 @@
     "Rush": {
       "CanRushEnemyReloadHeal": true,
       "CanJumpCorners": true,
-      "JumpCornerChance": 30.0,
+      "JumpCornerChance": 25.0,
       "CanBunnyHop": true,
-      "BunnyHopChance": 5.0
+      "BunnyHopChance": 10.0
     },
     "Cover": {
       "CanShiftCoverPosition": true,
@@ -62,17 +62,22 @@
       "CanTaunt": true,
       "FrequentTaunt": true,
       "ConstantTaunt": false,
-      "CanRespondToEnemyVoice": false,
+      "CanRespondToEnemyVoice": true,
       "TauntFrequency": 20.0,
       "TauntChance": 60.0,
       "TauntMaxDistance": 50.0,
-      "CanFakeDeathRare": false,
-      "FakeDeathChance": 0.0,
+      "CanFakeDeathRare": true,
+      "FakeDeathChance": 3.0,
       "CanBegForLife": false
     }
   },
-  "StatModifiers": {
-    "ScatterMultiplier": 0.95,
-    "VisionSpeedMultiplier": 0.95
+  "Difficulty": {
+    "VisibleDistCoef": 1.05,
+    "GainSightCoef": 0.95,
+    "ScatteringCoef": 0.95,
+    "HearingDistanceCoef": 1.05,
+    "AggressionCoef": 1.05,
+    "PrecisionSpeedCoef": 0.9,
+    "AccuracySpeedCoef": 0.9
   }
 }

@@ -66,7 +66,7 @@
       "AudioStraightDistanceToIgnore": 125.0,
       "SearchBaseTime": 0.1,
       "SearchWaitMultiplier": 1.0,
-      "SprintWhileSearchChance": 85.0,
+      "SprintWhileSearchChance": 90.0,
       "Sneaky": false,
       "SneakySpeed": 1.0,
       "SneakyPose": 1.0,
@@ -80,7 +80,7 @@
       "CanJumpCorners": true,
       "JumpCornerChance": 100.0,
       "CanBunnyHop": true,
-      "BunnyHopChance": 50.0000038
+      "BunnyHopChance": 50.0
     },
     "Cover": {
       "CanShiftCoverPosition": true,
@@ -103,8 +103,13 @@
       "CanBegForLife": false
     }
   },
-  "StatModifiers": {
-    "ScatterMultiplier": 1.0,
-    "VisionSpeedMultiplier": 1.0
+  "Difficulty": {
+    "VisibleDistCoef": 1.0,
+    "GainSightCoef": 1.0,
+    "ScatteringCoef": 1.0,
+    "HearingDistanceCoef": 1.0,
+    "AggressionCoef": 1.0,
+    "PrecisionSpeedCoef": 1.0,
+    "AccuracySpeedCoef": 1.0
   }
 }

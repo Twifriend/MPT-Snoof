@@ -74,7 +74,7 @@
       "SearchHasEnemyPose": 0.0
     },
     "Rush": {
-      "CanRushEnemyReloadHeal": false,
+      "CanRushEnemyReloadHeal": true,
       "CanJumpCorners": false,
       "JumpCornerChance": 0.0,
       "CanBunnyHop": false,
@@ -101,8 +101,13 @@
       "CanBegForLife": false
     }
   },
-  "StatModifiers": {
-    "ScatterMultiplier": 1.0,
-    "VisionSpeedMultiplier": 1.0
+  "Difficulty": {
+    "VisibleDistCoef": 1.0,
+    "GainSightCoef": 1.0,
+    "ScatteringCoef": 1.0,
+    "HearingDistanceCoef": 1.0,
+    "AggressionCoef": 1.0,
+    "PrecisionSpeedCoef": 1.0,
+    "AccuracySpeedCoef": 1.0
   }
 }

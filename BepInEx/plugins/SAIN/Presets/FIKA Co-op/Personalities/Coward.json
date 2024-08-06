@@ -6,7 +6,7 @@
     "CanBeRandomlyAssigned": true,
     "RandomlyAssignedChance": 5.0,
     "MinLevel": 0.0,
-    "MaxLevel": 25.0,
+    "MaxLevel": 30.0,
     "PowerLevelScaleStart": 0.0,
     "PowerLevelScaleEnd": 250.0,
     "InverseScale": true,
@@ -64,7 +64,7 @@
       "AudioStraightDistanceToIgnore": 125.0,
       "SearchBaseTime": 40.0,
       "SearchWaitMultiplier": 1.0,
-      "SprintWhileSearchChance": 0.0,
+      "SprintWhileSearchChance": 25.0,
       "Sneaky": false,
       "SneakySpeed": 1.0,
       "SneakyPose": 1.0,
@@ -101,8 +101,13 @@
       "CanBegForLife": true
     }
   },
-  "StatModifiers": {
-    "ScatterMultiplier": 1.05,
-    "VisionSpeedMultiplier": 1.05
+  "Difficulty": {
+    "VisibleDistCoef": 1.0,
+    "GainSightCoef": 1.0,
+    "ScatteringCoef": 1.0,
+    "HearingDistanceCoef": 1.0,
+    "AggressionCoef": 1.0,
+    "PrecisionSpeedCoef": 1.0,
+    "AccuracySpeedCoef": 1.0
   }
 }
