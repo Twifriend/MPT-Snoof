@@ -190,18 +190,18 @@
     "hard": {
       "Difficulty": {
         "VisibleDistCoef": 1.0,
-        "GainSightCoef": 1.0,
-        "ScatteringCoef": 1.0,
+        "GainSightCoef": 0.9,
+        "ScatteringCoef": 0.95,
         "HearingDistanceCoef": 1.0,
-        "AggressionCoef": 1.0,
-        "PrecisionSpeedCoef": 1.0,
-        "AccuracySpeedCoef": 1.0
+        "AggressionCoef": 1.4,
+        "PrecisionSpeedCoef": 0.95,
+        "AccuracySpeedCoef": 0.95
       },
       "Core": {
         "VisibleAngle": 170.0,
-        "VisibleDistance": 142.0,
-        "GainSightCoef": 0.1,
-        "AccuratySpeed": 0.2,
+        "VisibleDistance": 170.0,
+        "GainSightCoef": 0.0625,
+        "AccuratySpeed": 0.15,
         "ScatteringPerMeter": 0.045,
         "ScatteringClosePerMeter": 0.12,
         "HearingDistanceMulti": 1.0,
@@ -222,7 +222,7 @@
         "BASE_HIT_AFFECTION_DELAY_SEC": 0.65,
         "MIN_TIME_DISCARD_AIM_SEC": 0.5,
         "MAX_TIME_DISCARD_AIM_SEC": 1.5,
-        "FIRST_CONTACT_ADD_SEC": 0.2
+        "FIRST_CONTACT_ADD_SEC": 0.15
       },
       "Boss": {
         "SET_CHEAT_VISIBLE_WHEN_ADD_TO_ENEMY": false
@@ -252,7 +252,7 @@
       },
       "Mind": {
         "Aggression": 1.0,
-        "WeaponProficiency": 0.5,
+        "WeaponProficiency": 0.6,
         "TalkFrequency": 1.0,
         "CanTalk": true,
         "BotTaunts": true,
@@ -261,7 +261,7 @@
         "SquadLeadTalkFreq": 3.0,
         "MaxExtractPercentage": 30.0,
         "MinExtractPercentage": 5.0,
-        "EnableExtracts": true
+        "EnableExtracts": false
       },
       "Move": {},
       "Patrol": {},
@@ -272,10 +272,10 @@
       "Shoot": {
         "RecoilMultiplier": 1.0,
         "BurstMulti": 2.0,
-        "FireratMulti": 1.5,
+        "FireratMulti": 1.7,
         "MaxPointFireDistance": 150.0,
-        "AUTOMATIC_FIRE_SCATTERING_COEF": 1.5,
-        "BASE_AUTOMATIC_TIME": 0.2,
+        "AUTOMATIC_FIRE_SCATTERING_COEF": 1.1,
+        "BASE_AUTOMATIC_TIME": 0.4,
         "RECOIL_DELTA_PRESS": 0.0
       }
     },
