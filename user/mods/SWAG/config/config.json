@@ -1,6 +1,6 @@
 {
-   "BossDifficulty": "normal",
-   "BossEscortDifficulty": "normal",
+   "BossDifficulty": "hard",
+   "BossEscortDifficulty": "hard",
    "disableAllSpawns": {
       "bosses": false,
       "rogues": false,
@@ -37,7 +37,7 @@
          "reserve": 0,
          "shoreline": 10,
          "streets": 0,
-         "woods": 12
+         "woods": 15
       },
       "raiders": {
          "customs": 0,
@@ -83,30 +83,30 @@
       }
    },
    "MaxBotCap": {
-      "factory": 16,
-      "customs": 24,
-      "woods": 26,
-      "shoreline": 24,
-      "lighthouse": 26,
-      "reserve": 24,
-      "interchange": 24,
-      "laboratory": 18,
-      "streets": 26,
-      "groundzero": 22,
-      "groundzero_high": 24
+      "factory": 13,
+      "customs": 16,
+      "woods": 16,
+      "shoreline": 16,
+      "lighthouse": 16,
+      "reserve": 16,
+      "interchange": 16,
+      "laboratory": 16,
+      "streets": 14,
+      "groundzero": 16,
+      "groundzero_high": 16
    },
    "NightMaxBotCap": {
-      "factory_night": 16,
-      "customs": 24,
-      "woods": 26,
-      "shoreline": 24,
-      "lighthouse": 26,
-      "reserve": 24,
-      "interchange": 24,
-      "laboratory": 18,
-      "streets": 26,
-      "groundzero": 22,
-      "groundzero_high": 24
+      "factory_night": 13,
+      "customs": 16,
+      "woods": 16,
+      "shoreline": 16,
+      "lighthouse": 16,
+      "reserve": 16,
+      "interchange": 16,
+      "laboratory": 16,
+      "streets": 14,
+      "groundzero": 16,
+      "groundzero_high": 16
    },
    "UseDefaultSpawns": {
       "Waves": false,

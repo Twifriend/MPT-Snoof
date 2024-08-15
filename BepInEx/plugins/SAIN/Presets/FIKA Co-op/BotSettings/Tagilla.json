@@ -251,7 +251,7 @@
         "VISIBLE_DISNACE_WITH_IR_LIGHT": 65.0
       },
       "Mind": {
-        "Aggression": 1.0,
+        "Aggression": 1.1,
         "WeaponProficiency": 0.6,
         "TalkFrequency": 1.0,
         "CanTalk": true,
@@ -270,7 +270,7 @@
         "HandDamageAccuracySpeed": 1.5
       },
       "Shoot": {
-        "RecoilMultiplier": 1.0,
+        "RecoilMultiplier": 0.95,
         "BurstMulti": 2.0,
         "FireratMulti": 1.7,
         "MaxPointFireDistance": 150.0,

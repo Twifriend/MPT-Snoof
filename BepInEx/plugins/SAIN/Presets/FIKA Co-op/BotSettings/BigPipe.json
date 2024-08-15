@@ -192,19 +192,19 @@
         "VisibleDistCoef": 1.0,
         "GainSightCoef": 0.9,
         "ScatteringCoef": 0.95,
-        "HearingDistanceCoef": 1.0,
+        "HearingDistanceCoef": 1.15,
         "AggressionCoef": 1.5,
         "PrecisionSpeedCoef": 0.95,
         "AccuracySpeedCoef": 0.95
       },
       "Core": {
         "VisibleAngle": 170.0,
-        "VisibleDistance": 170.0,
+        "VisibleDistance": 175.0,
         "GainSightCoef": 0.075,
         "AccuratySpeed": 0.1,
         "ScatteringPerMeter": 0.1,
         "ScatteringClosePerMeter": 0.12,
-        "HearingDistanceMulti": 1.0,
+        "HearingDistanceMulti": 1.05,
         "CanGrenade": true
       },
       "Aiming": {
@@ -270,7 +270,7 @@
         "HandDamageAccuracySpeed": 1.5
       },
       "Shoot": {
-        "RecoilMultiplier": 1.0,
+        "RecoilMultiplier": 0.95,
         "BurstMulti": 2.0,
         "FireratMulti": 1.7,
         "MaxPointFireDistance": 150.0,

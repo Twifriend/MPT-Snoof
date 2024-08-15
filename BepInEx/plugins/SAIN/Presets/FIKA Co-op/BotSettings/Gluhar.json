@@ -199,8 +199,8 @@
       },
       "Core": {
         "VisibleAngle": 170.0,
-        "VisibleDistance": 170.0,
-        "GainSightCoef": 0.0625,
+        "VisibleDistance": 175.0,
+        "GainSightCoef": 0.05,
         "AccuratySpeed": 0.15,
         "ScatteringPerMeter": 0.045,
         "ScatteringClosePerMeter": 0.12,
@@ -270,7 +270,7 @@
         "HandDamageAccuracySpeed": 1.5
       },
       "Shoot": {
-        "RecoilMultiplier": 1.0,
+        "RecoilMultiplier": 0.95,
         "BurstMulti": 2.0,
         "FireratMulti": 1.7,
         "MaxPointFireDistance": 150.0,

@@ -241,7 +241,7 @@
   ],
   "streets": [
     {
-      "BossChance": 11,
+      "BossChance": 35,
       "BossEscortAmount": "6",
       "BossEscortType": "followerboar",
       "BossName": "bossboar",

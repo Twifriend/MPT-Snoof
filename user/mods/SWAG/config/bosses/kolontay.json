@@ -74,7 +74,7 @@
   "groundzero": [
     {
       "BossName": "bosskolontay",
-      "BossChance": 35,
+      "BossChance": 30,
       "Time": -1,
       "BossEscortAmount": "2",
       "BossEscortType": "followerkolontaysecurity",
@@ -98,7 +98,7 @@
   "groundzero_high": [
     {
       "BossName": "bosskolontay",
-      "BossChance": 35,
+      "BossChance": 40,
       "Time": -1,
       "BossEscortAmount": "2",
       "BossEscortType": "followerkolontaysecurity",
@@ -242,7 +242,7 @@
   "streets": [
     {
       "BossName": "bosskolontay",
-      "BossChance": 35,
+      "BossChance": 25,
       "Time": -1,
       "BossEscortAmount": "2",
       "BossEscortType": "followerkolontaysecurity",

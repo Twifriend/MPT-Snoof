@@ -292,7 +292,7 @@
       "Core": {
         "VisibleAngle": 170.0,
         "VisibleDistance": 200.0,
-        "GainSightCoef": 0.03,
+        "GainSightCoef": 0.025,
         "AccuratySpeed": 0.05,
         "ScatteringPerMeter": 0.045,
         "ScatteringClosePerMeter": 0.12,

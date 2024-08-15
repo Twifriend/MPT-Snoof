@@ -270,7 +270,7 @@
         "HandDamageAccuracySpeed": 1.5
       },
       "Shoot": {
-        "RecoilMultiplier": 1.0,
+        "RecoilMultiplier": 0.951,
         "BurstMulti": 2.0,
         "FireratMulti": 1.7,
         "MaxPointFireDistance": 150.0,

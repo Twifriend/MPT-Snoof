@@ -193,13 +193,13 @@
         "GainSightCoef": 1.0,
         "ScatteringCoef": 1.0,
         "HearingDistanceCoef": 1.0,
-        "AggressionCoef": 1.0,
+        "AggressionCoef": 1.05,
         "PrecisionSpeedCoef": 1.0,
         "AccuracySpeedCoef": 1.0
       },
       "Core": {
         "VisibleAngle": 170.0,
-        "VisibleDistance": 142.0,
+        "VisibleDistance": 150.0,
         "GainSightCoef": 0.1,
         "AccuratySpeed": 0.2,
         "ScatteringPerMeter": 0.045,
@@ -251,7 +251,7 @@
         "VISIBLE_DISNACE_WITH_IR_LIGHT": 65.0
       },
       "Mind": {
-        "Aggression": 1.0,
+        "Aggression": 1.1,
         "WeaponProficiency": 0.5,
         "TalkFrequency": 1.0,
         "CanTalk": true,

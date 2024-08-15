@@ -199,7 +199,7 @@
       },
       "Core": {
         "VisibleAngle": 170.0,
-        "VisibleDistance": 142.0,
+        "VisibleDistance": 150.0,
         "GainSightCoef": 0.1,
         "AccuratySpeed": 0.2,
         "ScatteringPerMeter": 0.045,

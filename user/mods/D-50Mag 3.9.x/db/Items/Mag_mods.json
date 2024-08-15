@@ -19,6 +19,7 @@
 			"ReloadMagType": "ExternalMagazine",
 			"VisibleAmmoRangesString": "1-3",
 			"MalfunctionChance": 0.15,
+			"UniqueAnimationModID": 0,
 			"magAnimationIndex": 5,
 			"Cartridges": [
 				{
@@ -49,8 +50,8 @@
 		},
 		"locales": {
 			"en": {
-				"name": "Magpul D50 7.62 Drum",
-				"shortName": "D50",
+				"name": "Magpul D-50 7.62 Drum",
+				"shortName": "D-50",
 				"description": "The Magpul PMAG D-50 is a rugged, lightweight, and reliable 50-round polymer drum magazine designed for 7.62x51 NATO/.308 Winchester ammunition for SR25/M110 pattern rifles. It’s capable of using longer-than-SAAMI-spec match ammunition, up to 2.830” OAL, such as M118LR. Engineered to the same exacting standards as the famous Magpul PMAG and PMAG D-60® drum magazines, the D-50 continues the PMAG tradition of high-capacity performance and dependability.  In addition, the D-50 brings GEN M3 features, which means enhanced strength, durability, and reliability."
 			}
 		},
@@ -103,5 +104,4 @@
 		"addweaponpreset": false,
 		"weaponpresets": []
 	}
-	
 }
