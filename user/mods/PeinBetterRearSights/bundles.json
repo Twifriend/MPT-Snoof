@@ -59,7 +59,14 @@
 		{
 			"key": "assets/content/items/mods/sights rear/sight_rear_ar15_colt_carry_hande_std.bundle",
 			"dependencyKeys": []
+		},
+		{
+			"key": "assets/content/items/mods/sights rear/sight_rear_ak_tactica_tula_tt01.bundle",
+			"dependencyKeys": []
+		},
+		{
+			"key": "assets/content/items/mods/sights rear/sight_rear_mp9_bt_mp9_std.bundle",
+			"dependencyKeys": []
 		}
-		
 	]
 }
