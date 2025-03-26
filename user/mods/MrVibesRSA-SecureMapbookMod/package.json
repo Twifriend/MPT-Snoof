@@ -1,0 +1,13 @@
+{
+  "name": "MrVibesRSA-SecureMapbookMod",
+  "version": "1.0.0",
+  "sptVersion": "~3.11",
+  "loadBefore": [],
+  "loadAfter": [],
+  "incompatibilities": [],
+  "isBundleMod": true,
+  "main": "src/mod.js",
+  "author": "MrVibesRSA",
+  "contributors": [],
+  "license": "MIT"
+}

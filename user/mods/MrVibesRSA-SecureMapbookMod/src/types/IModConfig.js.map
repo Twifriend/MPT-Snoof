@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "file": "IModConfig.js",
+    "sourceRoot": "",
+    "sources": [
+        "IModConfig.ts"
+    ],
+    "names": [],
+    "mappings": ""
+}
