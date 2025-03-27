@@ -9,7 +9,6 @@ import { ModConfig } from "./types/IModConfig";
 const config: ModConfig = require("../config/config.json");
 
 // Constants
-const POCKETS_INVENTORY_ID = "627a4e6b255f7527fb05a0f6";
 const HIDEOUT_PARENT_ID = "hideout";
 const ROUBLES_TEMPLATE_ID = "5449016a4bdc2d6f028b456f";
 
@@ -152,40 +151,46 @@ class SecureMapbookMod implements IPostDBLoadMod, IPostSptLoadMod {
     }
 
     private allowInSpecialSlots(): void {
-        if (!this.itemDB[POCKETS_INVENTORY_ID]) {
-            console.error("[MrVibesRSA-SecureMapbookMod] Pockets inventory not found!");
+        if (!config.specialSlotsList || config.specialSlotsList.length === 0) {
+            console.error("[MrVibesRSA-SecureMapbookMod] No special slots configured!");
             return;
         }
 
-        const pockets = this.itemDB[POCKETS_INVENTORY_ID];
         const itemsToAdd = [config.mapbookItemId, ...Object.values(config.maps)];
 
-        try {
-            // Add to all three pocket slots
-            for (let i = 0; i < 3; i++) {
-                const slot = pockets._props.Slots[i];
-                if (!slot._props.filters[0].Filter) {
-                    slot._props.filters[0].Filter = [];
-                }
+        config.specialSlotsList.forEach(slotId => {
+            if (!this.itemDB[slotId]) {
+                console.error(`[MrVibesRSA-SecureMapbookMod] Special slot container not found: ${slotId}`);
+                return;
+            }
 
-                itemsToAdd.forEach(itemId => {
-                    if (!slot._props.filters[0].Filter.includes(itemId)) {
-                        slot._props.filters[0].Filter.push(itemId);
+            const container = this.itemDB[slotId];
 
-                        if (config.enableDebugging) {
-                            console.log(`[MrVibesRSA-SecureMapbookMod] Added ${itemId} to pocket slot ${i + 1}`);
-                        }
+            try {
+                // Process all slots in the container
+                container._props.Slots?.forEach((slot: any, index: number) => {
+                    if (!slot._props.filters[0].Filter) {
+                        slot._props.filters[0].Filter = [];
                     }
-                });
-            }
 
-            if (config.enableDebugging) {
-                console.log("[MrVibesRSA-SecureMapbookMod] Completed adding items to special slots");
-                console.log(`[MrVibesRSA-SecureMapbookMod] Items added: ${itemsToAdd.join(", ")}`);
+                    itemsToAdd.forEach(itemId => {
+                        if (!slot._props.filters[0].Filter.includes(itemId)) {
+                            slot._props.filters[0].Filter.push(itemId);
+
+                            if (config.enableDebugging) {
+                                console.log(`[MrVibesRSA-SecureMapbookMod] Added ${itemId} to ${slotId} slot ${index}`);
+                            }
+                        }
+                    });
+                });
+
+                if (config.enableDebugging) {
+                    console.log(`[MrVibesRSA-SecureMapbookMod] Updated ${slotId} successfully`);
+                }
+            } catch (error) {
+                console.error(`[MrVibesRSA-SecureMapbookMod] Failed to modify ${slotId}:`, error);
             }
-        } catch (error) {
-            console.error("[MrVibesRSA-SecureMapbookMod] Error modifying pocket slots:", error);
-        }
+        });
     }
 
     private allowInSecureContainers(): void {

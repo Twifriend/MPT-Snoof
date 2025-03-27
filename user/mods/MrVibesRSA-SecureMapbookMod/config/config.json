@@ -7,6 +7,10 @@
   "allowInsurance": false,
   "allowInSecureContainers": true,
   "allowInSpecialSlots": true,
+  "specialSlotsList": [
+    "65e080be269cbd5c5005e529",
+    "627a4e6b255f7527fb05a0f6"
+  ],
   "secureContainers": {
     "KAPPA": "5c093ca986f7740a1867ab12",
     "GAMMA": "5857a8bc2459772bad15db29",

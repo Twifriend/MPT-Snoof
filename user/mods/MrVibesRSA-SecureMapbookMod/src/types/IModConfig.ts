@@ -1,3 +1,9 @@
+export interface ModConfig {
+    enableDebugging: boolean;
+    mapbookItemId: string;
+    specialSlotsList: string[];
+}
+
 export interface SecureContainers {
     KAPPA: string;
     GAMMA: string;
